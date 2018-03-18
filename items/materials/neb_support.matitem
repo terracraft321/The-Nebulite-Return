@@ -1,0 +1,9 @@
+{
+  "itemName" : "neb_support",
+  "rarity" : "Common",
+  "inventoryIcon" : "neb_support.png",
+  "description" : "A runed stone used as support in ancient Nebulite structures.",
+  "shortdescription" : "Nebulite Support Stone",
+
+  "materialId" : 7868
+}

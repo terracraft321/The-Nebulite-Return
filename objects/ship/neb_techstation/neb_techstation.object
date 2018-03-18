@@ -1,0 +1,66 @@
+{
+  "objectName" : "neb_techstation",
+  "colonyTags" : ["nebulite"],
+  "printable" : false,
+  "rarity" : "Common",
+
+  "interactAction" : "OpenAiInterface",
+
+  "category" : "decorative",
+  "lightColor" : [61, 88, 102],
+  "lightPosition" : [-1, 0],
+
+  "description" : "This tech station allows me to communicate with S.A.I.L and enable tech!",
+  "shortdescription" : "Onboard A.I.",
+  "race" : "nebulite",
+
+  "apexDescription" : "It appears to be a tech station. I wonder if its like S.A.I.L.",
+  "avianDescription" : "Is it anything like S.A.I.L.?",
+  "floranDescription" : "Ssstone beingss technology ssurpassss all othersss!",
+  "glitchDescription" : "Curious. Is this device similar to S.A.I.L.?",
+  "humanDescription" : "Whoa, cool! Does it work like S.A.I.L?",
+  "hylotlDescription" : "It is very strange looking. It might operate similar to S.A.I.L",
+  "nebuliteDescription" : "This device can directly interface with the ship's on-board management AI.",
+
+  "inventoryIcon" : "neb_techstationicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "neb_techstation.png:<color>.<frame>", "fullbright" : true }, { "image" : "neb_techstationlit.png:<color>.<frame>" } ],
+      "imagePosition" : [-16, -8],
+      "frames" : 8,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ],
+
+  "offeredQuests" : [ "gaterepair" ],
+
+  "animation" : "/objects/ship/techstation.animation",
+  "scripts" : [
+    "/objects/spawner/techstation.lua"
+  ],
+  "scriptDelta" : 20,
+  "shipPetType" : "neb_pet",
+  "spawnOffset" : [2, -1],
+  
+  "chatPortrait" : "/ai/portraits/nebuliteportrait.png:yell.1",
+  "dialog" : {
+    "wakeUp" : [
+      [ "CYCLING CORE SYSTEMS...", "/ai/portraits/nebuliteportrait.png:error" ],
+      [ "INITIATING S.A.I.L...", "/ai/portraits/nebuliteportrait.png:error" ],
+      [ "I am S.A.I.L, your Ship-based Artificial Intelligence Lattice. I manage the maintainance of your ship.", "/ai/portraits/nebuliteportrait.png:talk.0" ],
+      [ "I am also programmed to offer you information and advice.", "/ai/portraits/nebuliteportrait.png:talk.1" ],
+      [ "Earth was attacked by an unknown force, and was subsequently annihilated.", "/ai/portraits/nebuliteportrait.png:talk.0" ],
+      [ "The ship's navigation systems were damaged in our escape. Our location is currently unknown.", "/ai/portraits/nebuliteportrait.png:talk.1" ]
+    ],
+    "wakePlayer" : [
+      [ "^#808080;/--ERROR;/^reset;\nSHIP FUNCTIONS OFFLINE", "/ai/portraits/nebuliteportrait.png:error"],
+      [ "^#808080;/--ERROR;/^reset;\nSYSTEM RESET REQUIRED", "/ai/portraits/nebuliteportrait.png:error"]
+    ]
+  },
+
+  "uniqueId" : "techstation"
+}

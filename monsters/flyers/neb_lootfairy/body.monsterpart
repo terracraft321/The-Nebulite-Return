@@ -1,0 +1,9 @@
+{
+  "name" : "neb_lootfairy",
+  "category" : "neb_lootfairy",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "neb_lootfairy.png"
+  }
+}

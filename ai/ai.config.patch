@@ -1,0 +1,11 @@
+[
+  { 
+    "op" : "add",
+    "path" : "/species/nebulite",
+    "value" : {
+      "aiFrames" : "nebuliteai.png",
+      "portraitFrames" : "portraits/nebuliteportrait.png",
+      "staticFrames" : "staticnebulite.png"
+    }
+  }
+]

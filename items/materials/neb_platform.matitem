@@ -1,0 +1,13 @@
+{
+  "itemName" : "neb_platform",
+  // "twoHanded" : false,
+  "rarity" : "Common",
+  "inventoryIcon" : "neb_platform.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "An ancient platform made up of some kind of technological rock.",
+  "shortdescription" : "Nebulite Platform",
+  "glitchdescription" : "An ancient platform made up of some kind of technological rock.",
+  "florandescription" : "An ancient platform made up of some kind of technological rock.",
+
+  "materialId" : 7866
+}

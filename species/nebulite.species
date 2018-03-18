@@ -1,0 +1,136 @@
+{
+  "kind" : "nebulite",
+  
+  "charCreationTooltip" : {
+      "title" : "Nebulite",
+      "subTitle" : "ZZ",
+      "description" : "Though time has forgotten them, the few Nebulites that remain stand watch over their creations."
+  },
+  
+  "statusEffects" : [ "dontstarve", "neb_maxhealthboost_15", "neb_heal", "nebslow" ],
+  
+  "nameGen" : [ "/species/nebulitenamegen.config:names", "/species/nebulitenamegen.config:names" ],
+  "ouchNoises" : [ "/sfx/humanoid/nebulitehurt_general1.ogg", "/sfx/humanoid/nebulitehurt_general1.ogg" ],
+  "charGenTextLabels" : [ "Stone color", "Head style", "Shirt", "Legwear", "Rune color", " ", "Shirt color", "Legwear color", "NEBULITE", "Personality" ],
+  "skull" : "/humanoid/nebulite/dead.png",
+  "effectDirectives" : "?replace=FEFFFFFF=000000FF?replace=9bd4ffFF=5100A3FF?replace=31a6ffFF=29005DFF",
+  "defaultBlueprints" : {
+    "tier1" : [
+      { "item" : "coolchest" },
+      { "item" : "coollegs" },
+      { "item" : "neb_robechest" },
+      { "item" : "neb_robehat" },
+      { "item" : "neb_robelegs" },
+      { "item" : "flaghuman" },
+      
+      { "item" : "neb_shipdoor" },
+      { "item" : "neb_shiplight" },
+      { "item" : "neb_shiplockersmall" },
+      { "item" : "neb_torch" },
+      { "item" : "neb_block" },
+      { "item" : "neb_brick" },
+      { "item" : "neb_ornateblock" },
+      { "item" : "neb_ornatebrick" },
+      { "item" : "neb_ornatecobble" },
+      { "item" : "neb_ornateglass" },
+      { "item" : "neb_ornatepillar" },
+      { "item" : "neb_pillarblock" },
+      { "item" : "neb_platform" },
+      { "item" : "neb_redwood" },
+      { "item" : "neb_redwoodornate" },
+      { "item" : "ancientchest" },
+      { "item" : "ancientbust" },
+      { "item" : "ancienthiddenplatform" },
+      { "item" : "ancientlightround" },
+      { "item" : "ancientlight" },
+      { "item" : "ancientpillar" },
+      { "item" : "ancientsmallconsole" },
+      { "item" : "ancientverticaldoor" },
+      
+      { "item" : "neb_staff_1" },
+      { "item" : "neb_bow_1" },
+      
+      { "item" : "neb_staff_2" },
+      
+      { "item" : "neb_staff_3" },
+      
+      { "item" : "neb_staff_4" },
+      
+      { "item" : "neb_staff_5a" },
+      { "item" : "neb_staff_5f" },
+      { "item" : "neb_staff_5v" }
+    ]
+  },
+  "altOptionAsUndyColor" : true,
+  "headOptionAsHairColor" : false,
+  "altOptionAsHairColor" : true,
+  "genders" : [
+    {
+      "name" : "male",
+      "image" : "/interface/title/male.png",
+      "characterImage" : "/interface/title/neb_male.png",
+      "hair" : [ "m1", "m2", "m3", "m4", "m5", "m6", "m7", "m8", "m9", "m10", "m11", "m12", "m13", "m14", "m15", "m16", "m17", "m18", "m19", "m20", "m21", "m22" ],
+      "shirt" : [ "neb_robechest" ],
+      "pants" : [ "neb_robelegs" ],
+      "facialHairGroup" : "",
+      "facialHair" : [ ],
+      "facialMaskGroup" : "",
+      "facialMask" : [ ]
+    },
+    {
+      "name" : "female",
+      "image" : "/interface/title/female.png",
+      "characterImage" : "/interface/title/neb_female.png",
+      "hair" : [ "f1", "f2", "f3", "f4", "f5", "f6", "f7", "f8", "f9", "f10", "f11", "f12", "f13", "f14", "f15", "f16", "f17", "f18", "f19", "f20", "f21", "f22" ],
+      "shirt" : [ "neb_robechest" ],
+      "pants" : [ "neb_robelegs" ],
+      "facialHairGroup" : "",
+      "facialHair" : [ ],
+      "facialMaskGroup" : "",
+      "facialMask" : [ ]
+    }
+  ],
+  "bodyColor" : [
+  
+    { "6F5E4A" : "6F5E4A", "4E4134" : "4E4134", "30271F" : "30271F", "988165" : "988165" }, //Original
+    { "6F5E4A" : "4A6F67", "4E4134" : "344E48", "30271F" : "1E2F2B", "988165" : "64978C" }, //Cold
+    { "6F5E4A" : "6F4A4A", "4E4134" : "4E3434", "30271F" : "2F1E1E", "988165" : "976464" }, //Hot
+    { "6F5E4A" : "3F342A", "4E4134" : "2D241E", "30271F" : "181410", "988165" : "57483A" }, //Dark
+    { "6F5E4A" : "907A62", "4E4134" : "7B6552", "30271F" : "635040", "988165" : "AF9376" }, //Light
+    { "6F5E4A" : "5D5D5D", "4E4134" : "414141", "30271F" : "272727", "988165" : "7F7F7F" }, //Stone
+    { "6F5E4A" : "777777", "4E4134" : "5F5F5F", "30271F" : "4B4B4B", "988165" : "959595" }, //Light Stone
+    { "6F5E4A" : "3F3F3F", "4E4134" : "2D2D2D", "30271F" : "181818", "988165" : "575757" }, //Dark Stone
+    { "6F5E4A" : "625C4F", "4E4134" : "474239", "30271F" : "2A2722", "988165" : "8B826F" } //Ancient
+  ],
+  "undyColor" : [
+    { "FFFFFF" : "FFFFFF", "C0C0C0" : "C0C0C0" }, //White
+    { "FFFFFF" : "00FFFF", "C0C0C0" : "00C0C0" }, //Light Blue
+    { "FFFFFF" : "FF0000", "C0C0C0" : "C00000" }, //Red
+    { "FFFFFF" : "00FF00", "C0C0C0" : "00C000" }, //Green
+    { "FFFFFF" : "0000FF", "C0C0C0" : "0000C0" }, //Blue
+    { "FFFFFF" : "FFFF00", "C0C0C0" : "C0C000" }, //Yellow
+    { "FFFFFF" : "FF00FF", "C0C0C0" : "C000C0" }, //Pink
+    { "FFFFFF" : "AF32F6", "C0C0C0" : "8401DF" }, //Ancient Purple
+    { "FFFFFF" : "F98606", "C0C0C0" : "C96C05" }, //Orange
+    { "FFFFFF" : "1B1B1B", "C0C0C0" : "0A0A0A" }, //Dark
+    { "FFFFFF" : "FF8AF5", "C0C0C0" : "FF51F2" }, //Light Pink
+    { "FFFFFF" : "0497FF", "C0C0C0" : "0074CA" }, //Blue Crystal
+    { "FFFFFF" : "BEFF61", "C0C0C0" : "8DEC00" }, //Lime
+    { "FFFFFF" : "663E00", "C0C0C0" : "4A2D00" }, //Brown
+    { "FFFFFF" : "6E0000", "C0C0C0" : "4A0000" } //Dark Red
+  ],
+  "hairColor" : [
+    //Default
+    {
+      "F23D00" : "F23D00",
+      "FF561C" : "FF561C",
+      "FF9F80" : "FF9F80"
+    },
+    //Light Blue
+    {
+      "F23D00" : "00E2F0",
+      "FF561C" : "1DF1FF",
+      "FF9F80" : "7FF7FF"
+    }
+  ]
+}

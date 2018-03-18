@@ -1,0 +1,9 @@
+{
+  "itemName" : "neb_ornatecobble",
+  "rarity" : "Rare",
+  "inventoryIcon" : "neb_ornatecobble.png",
+  "description" : "A decorative cobble made from crushed pure tempest stone.",
+  "shortdescription" : "Pure Tempest Cobble",
+
+  "materialId" : 7872
+}

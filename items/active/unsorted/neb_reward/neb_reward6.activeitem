@@ -1,0 +1,24 @@
+{
+  "itemName" : "neb_reward6",
+  "price" : 0,
+  "level" : 6,
+  "maxStack" : 100,
+  "rarity" : "Rare",
+  "category" : "mysteriousReward",
+  "description" : "Contains a Level 6 weapon!",
+  "shortdescription" : "^orange;Lv.6^white; Loot Box",
+  "twoHanded" : true,
+
+  "inventoryIcon" : "neb_reward6.png",
+  "animation" : "neb_reward.animation",
+  "animationCustom" : {},
+  "scripts" : ["neb_reward.lua"],
+
+  "fireTime" : 1.0,
+  "fireOffset" : [1.0, 0.0],
+
+  "treasure" : {
+    "pool" : "neb_rewardbox",
+    "level" : 6
+  }
+}

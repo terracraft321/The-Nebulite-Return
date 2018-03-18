@@ -1,0 +1,58 @@
+{
+  "animationParts" : { },
+  "animationCustom" : {
+    "sounds" : {
+      "flurry" : [ "/sfx/melee/spear_flurry.ogg" ]
+    }
+  },
+
+  "ability" : {
+    "name" : "Jab",
+    "type" : "neb_flurry",
+    "scripts" : ["/items/active/weapons/melee/abilities/spear/flurry/neb_flurry.lua"],
+    "class" : "Flurry",
+
+    "cooldownResetTime" : 1,
+    "maxCooldownTime" : 0.5,
+    "minCooldownTime" : 0.1,
+    "cooldownSwingReduction" : 0.075,
+
+    "energyUsage" : 9.0,
+    "cooldownTime" : 0.2,
+    
+    "fireTime" : 0.15,
+    "baseDps" : 2,
+
+    "damageConfig" : {
+      "damageSourceKind" : "spear",
+      "statusEffects" : [ ],
+      "baseDamage" : 2,
+      "knockback" : 0,
+      "timeout" : 0.15,
+      "timeoutGroup" : "primary"
+    },
+
+    "cycleRotationOffsets" : [0, 3.5, -3.5],
+    "stances" : {
+	  "idle" : {
+	    "armRotation" : -90,
+	    "weaponRotation" : 0,
+	    "twoHanded" : false,
+	    "weaponOffset" : [0.0, 0.0],
+
+	    "allowRotate" : false,
+	    "allowFlip" : true
+	  },
+      "swing" : {
+        "duration" : 0.1,
+        "armRotation" : -15,
+        "weaponRotation" : -75,
+        "twoHanded" : true,
+        "weaponOffset" : [0.0, 0.0],
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "itemName" : "neb_transporter",
+  "level" : 1,
+  "price" : 5000,
+  "rarity" : "Rare",
+  "category" : "vehicleController",
+  "shortdescription" : "Nebulite Transporter",
+  "description" : "To compensate for their speed, the Nebulites created small ground transport vehicles.",
+  "twoHanded" : true,
+  "maxStack" : 1,
+  "itemTags" : ["vehiclecontroller"],
+
+  "animation" : "vehiclecontroller.animation",
+  "scripts" : ["vehiclecontroller.lua"],
+  "animationScripts" : ["vehiclecursor.lua"],
+  "filled" : true,
+  "tooltipKind" : "vehicle",
+  "largeImage" : "neb_transporterfull.png",
+
+  "respawnTime" : 1.0,
+
+  "vehicleType" : "neb_transporter",
+  "vehicleBoundingBox" : [-5, -3, 5, 3],
+  "vehicleImage" : "/vehicles/neb_transporter/transporterwarp.png:warp.7",
+
+  "animationParts" : {
+    "casing" : "neb_transporter.png"
+  },
+
+  "inventoryIcon" : "neb_transporter.png:full",
+  "emptyInventoryIcon" : "/items/active/vehiclecontroller/neb_transporter.png:empty",
+  "filledInventoryIcon" : "/items/active/vehiclecontroller/neb_transporter.png:full"
+}

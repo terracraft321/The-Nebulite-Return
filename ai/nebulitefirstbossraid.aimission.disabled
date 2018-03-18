@@ -1,0 +1,96 @@
+{
+  "missionName" : "nebulitefirstbossraid",
+  "icon" : "nebulitefirstbossicon.png",
+  "missionWorld" : "nebulitefirstbossraid",
+
+  "speciesText" : {
+    "nebulite" : {
+      "buttonText" : "Pillars of Death ^red;[RAID]",
+      "repeatButtonText" : "Revisit Pillars of Death ^red;[RAID]",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "This fight will not be easy, I need to bring some friends and my absolute best gear.",
+          "speedModifier" : 1.0
+        }
+      ]
+    },
+    "apex" : {
+      "buttonText" : "Pillars of Death ^red;[RAID]",
+      "repeatButtonText" : "Revisit Pillars of Death ^red;[RAID]",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "This fight will not be easy, I need to bring some friends and my absolute best gear.",
+          "speedModifier" : 1.0
+        }
+      ]
+    },
+    "avian" : {
+      "buttonText" : "Pillars of Death ^red;[RAID]",
+      "repeatButtonText" : "Revisit Pillars of Death ^red;[RAID]",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "This fight will not be easy, I need to bring some friends and my absolute best gear.",
+          "speedModifier" : 1.0
+        }
+      ]
+    },
+    "floran" : {
+      "buttonText" : "Pillars of Death ^red;[RAID]",
+      "repeatButtonText" : "Revisit Pillars of Death ^red;[RAID]",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "This fight will not be easy, I need to bring some friends and my absolute best gear.",
+          "speedModifier" : 1.0
+        }
+      ]
+    },
+    "glitch" : {
+      "buttonText" : "Pillars of Death ^red;[RAID]",
+      "repeatButtonText" : "Revisit Pillars of Death ^red;[RAID]",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "This fight will not be easy, I need to bring some friends and my absolute best gear.",
+          "speedModifier" : 1.0
+        }
+      ]
+    },
+    "human" : {
+      "buttonText" : "Pillars of Death ^red;[RAID]",
+      "repeatButtonText" : "Revisit Pillars of Death ^red;[RAID]",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "This fight will not be easy, I need to bring some friends and my absolute best gear.",
+          "speedModifier" : 1.0
+        }
+      ]
+    },
+    "novakid" : {
+      "buttonText" : "Pillars of Death ^red;[RAID]",
+      "repeatButtonText" : "Revisit Pillars of Death ^red;[RAID]",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "This fight will not be easy, I need to bring some friends and my absolute best gear.",
+          "speedModifier" : 1.0
+        }
+      ]
+    },
+    "hylotl" : {
+      "buttonText" : "Pillars of Death ^red;[RAID]",
+      "repeatButtonText" : "Pillars of Death ^red;[RAID]",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "This fight will not be easy, I need to bring some friends and my absolute best gear.",
+          "speedModifier" : 1.0
+        }
+      ]
+    }
+  }
+}

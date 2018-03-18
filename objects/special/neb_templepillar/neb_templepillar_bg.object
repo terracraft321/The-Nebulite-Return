@@ -1,0 +1,35 @@
+{
+  "objectName" : "neb_templepillar_bg",
+  "rarity" : "Legendary",
+  "category" : "decorative",
+  "price" : 70,
+
+  "description" : "A massive towering stone pillar.",
+  "shortdescription" : "Grand Temple Pillar (Background)",
+  "race" : "nebulite",
+
+  "inventoryIcon" : "neb_templepillaricon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "neb_templepillar_bg.png:<color>.<frame>" } ],
+      "imagePosition" : [-32, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "flipImages" : true,
+      "direction" : "left"
+    },
+    {
+      "imageLayers" : [ { "image" : "neb_templepillar_bg.png:<color>.<frame>" } ],
+      "imagePosition" : [-32, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "right"
+    }
+  ]
+}

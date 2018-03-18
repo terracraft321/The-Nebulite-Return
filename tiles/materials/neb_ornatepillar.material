@@ -1,0 +1,22 @@
+{
+  "materialId" : 7871,
+  "materialName" : "neb_ornatepillar",
+  "particleColor" : [71, 66, 57, 255],
+  "itemDrop" : "neb_ornatepillar",
+  "shortdescription" : "Pure Tempest Pillar",
+  "description" : "An ornate pillar used as support in grand Nebulite temples.",
+  "footstepSound" : "/sfx/blocks/footstep_stone3.ogg",
+  "drawBackground" : true,
+  "health" : 8,
+  "category": "materials",
+
+  "renderTemplate" : "/tiles/columntemplate.config",
+  "renderParameters" : {
+    "texture" : "neb_ornatepillar.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 2770
+  }
+}

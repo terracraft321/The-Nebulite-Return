@@ -1,0 +1,44 @@
+{
+  "objectName" : "neb_shiplockerTier0",
+  "tags" : ["nebulite","storage"],
+  "printable" : false,
+  "rarity" : "Common",
+  
+  "category" : "decorative",
+  "description" : "Store some stuff, why don't you?",
+  "shortdescription" : "Ship Locker",
+  "race" : "nebulite",
+  "lightColor" : [61, 88, 102],
+
+  "apexDescription" : "I wonder if there are any secrets inside...",
+  "avianDescription" : "Could there be anything of value within?",
+  "floranDescription" : "SSsssearch.",
+  "glitchDescription" : "Excited. Any items of interest inside?",
+  "humanDescription" : "A ship's locker. It's not working.",
+  "hylotlDescription" : "Perhaps something useful is inside.",
+  "nebuliteDescription" : "This device is malfunctioning. I should find a way to repair it.",
+  
+  "inventoryIcon" : "neb_shiplockericonTier0.png",
+  "orientations" : [
+    {
+      "image" : "neb_shiplockerTier0.png:<color>.<frame>",
+      "imagePosition" : [-16, -8],
+      "frames" : 8,
+      "animationCycle" : 1.4285,
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+  
+  "soundEffect" : "",
+  "soundEffectRadius" : 15,
+
+  "animation" : "/objects/noisy/noisy.animation",
+
+  "scripts" : [
+    "/objects/noisy/noisy.lua"
+  ],
+  
+  "sounds" : [ "" ]
+  
+}

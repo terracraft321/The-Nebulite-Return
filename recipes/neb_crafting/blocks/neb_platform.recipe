@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "cobblestonematerial", "count" : 1 }
+  ],
+  "output" : { "item" : "neb_platform", "count" : 1 },
+  "groups" : [ "neb_blockfilter", "neb_synthesizer" ]
+}

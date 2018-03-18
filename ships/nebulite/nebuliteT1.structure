@@ -1,0 +1,23 @@
+{
+  "config" : {
+    "shipUpgrades" : {
+      "capabilities" : [],
+      "maxFuel" : 1000
+    }
+  },
+
+  "backgroundOverlays" : [
+    {
+      "image" : "nebuliteT1.png",
+      "position" : [8, 14],
+      "fullbright" : true
+    },
+    {
+      "image" : "nebuliteT1lit.png",
+      "position" : [8, 14]
+    }
+  ],
+
+  "blockKey" : "blockKey.config:blockKey",
+  "blockImage" : "nebuliteT1blocks.png"
+}

@@ -1,0 +1,45 @@
+{
+  "objectName" : "neb_shipwindow",
+  "colonyTags" : ["nebulite"],
+  "printable" : false,
+  "rarity" : "Common",
+
+  "description" : "A chair designed to navigate ships.",
+  "shortdescription" : "Nebulite Captain's Chair Console",
+  "race" : "nebulite",
+  "category" : "furniture",
+
+  "inventoryIcon" : "neb_shipwindow.png",
+  "orientations" : [
+    {
+      "imageLayers" : [
+        { "image" : "neb_shipwindow.png:<color>.<frame>", "fullbright" : true },
+        { "image" : "neb_shipwindow.png:<color>.<frame>" }
+      ],
+      "imagePosition" : [-52, -40],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+      "renderLayer" : "Player+10",
+      "metaBoundBox" : [-1, -1, 1, 1],
+
+      "anchors" : [ ],
+      "flipImages" : true,
+      "direction" : "left"
+    },
+    
+    {
+      "imageLayers" : [
+        { "image" : "neb_shipwindow.png:<color>.<frame>", "fullbright" : true },
+        { "image" : "neb_shipwindow.png:<color>.<frame>" }
+      ],
+      "imagePosition" : [-52, -40],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+      "renderLayer" : "Player+11",
+      "metaBoundBox" : [-1, -1, 1, 1],
+
+      "anchors" : [ ],
+      "direction" : "right"
+    }
+  ]
+}

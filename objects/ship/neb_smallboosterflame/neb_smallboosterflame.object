@@ -1,0 +1,55 @@
+{
+  "objectName" : "neb_smallboosterflame",
+  "tags" : [],
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "I wonder how quickly that would cook a burger.",
+  "shortdescription" : "Nebulite Booster Flame",
+  "race" : "generic",
+
+  "apexDescription" : "A booster. These have been known to malfunction and explode.",
+  "avianDescription" : "A booster, the wings of a ship.",
+  "floranDescription" : "Ssscary fire.",
+  "glitchDescription" : "Analyse. Temperature too high to measure.",
+  "humanDescription" : "This thing eats through fuel.",
+  "hylotlDescription" : "Propulsion.",
+
+  "category" : "light",
+  "lightColor" : [164, 71, 181],
+  "pointLight" : true,
+  "flickerDistance" : 0.2,
+  "flickerStrength" : 0.05,
+  "flickerTiming" : 4,
+
+  "inventoryIcon" : "torchicon.png",
+  "orientations" : [
+    {
+      "image" : "neb_smallboosterflame.png:<color>.<frame>",
+      "imagePosition" : [-14, -42],
+      "frames" : 4,
+      "animationCycle" : 0.4,
+      "fullbright" : true,
+
+      "collision" : "solid",
+      "spaces" : [ [-2, 1], [-2, 0], [-2, -1], [-1, 1], [-1, 0], [-1, -1], [0, 1], [0, 0], [0, -1], [1, 1], [1, 0], [1, -1] ],
+      "anchors" : [ "top" ]
+    }
+  ],
+
+  "engineOnOrientations" : [
+    {
+      "image" : "neb_smallboosterflameon.png:<color>.<frame>",
+      "imagePosition" : [-14, -42],
+      "frames" : 4,
+      "animationCycle" : 0.3,
+      "fullbright" : true,
+
+      "collision" : "solid",
+      "spaces" : [ [-2, 1], [-2, 0], [-2, -1], [-1, 1], [-1, 0], [-1, -1], [0, 1], [0, 0], [0, -1], [1, 1], [1, 0], [1, -1] ],
+      "anchors" : [ "top" ]
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/neb_booster.ogg"
+
+}

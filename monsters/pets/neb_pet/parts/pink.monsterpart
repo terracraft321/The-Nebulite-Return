@@ -1,0 +1,9 @@
+{
+  "name" : "pink",
+  "category" : "neb_pet",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "pink.png"
+  }
+}

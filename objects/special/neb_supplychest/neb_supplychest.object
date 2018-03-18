@@ -1,0 +1,51 @@
+{
+  "objectName" : "neb_supplychest",
+  "tags" : ["nebulite","storage"],
+  "printable" : false,
+  "rarity" : "Common",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+
+  "category" : "storage",
+  "price" : 250,
+  "description" : "A chest that was used to teleport supplies to Nebulite settlements.",
+  "shortdescription" : "Void Chest",
+  "race" : "nebulite",
+
+  "apexDescription" : "An ancient chest of unknown origin.",
+  "avianDescription" : "An ancient chest of unknown origin.",
+  "floranDescription" : "Floran curiousss... what could be in ssstrange box?",
+  "glitchDescription" : "The structure of this chest is impenetrable to my sensors.",
+  "humanDescription" : "An ancient chest of unknown origin.",
+  "hylotlDescription" : "An ancient chest of unknown origin.",
+
+  "inventoryIcon" : "neb_supplychesticon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "neb_supplychest.png:<color>.<key>", "fullbright" : true }, { "image" : "neb_supplychestlit.png:<color>.<key>" } ],
+      "imagePosition" : [-16, 0],
+
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "neb_supplychest.png:<color>.<key>", "fullbright" : true }, { "image" : "neb_supplychestlit.png:<color>.<key>" } ],
+      "imagePosition" : [-16, 0],
+
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/nebulitesupplychest_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/nebulitesupplychest_close.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

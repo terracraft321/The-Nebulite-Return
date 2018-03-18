@@ -1,0 +1,17 @@
+[
+  {
+    "op" : "add",
+    "path" : "/starmapTypeColor/neb_anomaly",
+    "value" : [128, 0, 255, 255]
+  },
+  {
+    "op" : "add",
+    "path" : "/starmapTypeDescription/neb_anomaly",
+    "value" : "Supernova"
+  },
+  {
+    "op" : "add",
+    "path" : "/planetTypeToDescription/neb_ancientgate",
+    "value": ["A ^#7c4dff;Spatial Anomaly^white;. The ships sensors are receiving a distress signal from the nearby gate."]
+  }
+]

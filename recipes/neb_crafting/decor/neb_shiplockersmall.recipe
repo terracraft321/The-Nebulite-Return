@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "cobblestonematerial", "count" : 25 },
+    { "item" : "woodenchest", "count" : 1 }
+  ],
+  "output" : { "item" : "neb_shiplockersmall", "count" : 1 },
+  "groups" : [ "neb_decorfilter", "neb_synthesizer" ]
+}

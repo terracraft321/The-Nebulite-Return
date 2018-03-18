@@ -1,0 +1,56 @@
+[
+  {
+    "op" : "add",
+    "path" : "/neb_templedungeon",
+    "value" : {
+      "primaryDungeon" : "neb_templedungeon",
+      "weatherPool" : [
+        [1.0, "groundmist"]
+      ],
+      "threatLevel" : 1,
+      "gravity" : 80,
+      "worldSize" : [2000, 2000],
+      "dungeonBaseHeight" : 1359,
+      "dungeonSurfaceHeight" : 1209,
+      "biome" : "forest",
+      "environmentStatusEffects" : ["dontstarve", "energyregen"],
+      "ambientLightLevel" : [32, 32, 32],
+      "ambientNoises" : "/sfx/environmental/jungle_night.ogg",
+      "musicTrack" : "/music/temple-of-kluex.ogg"
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/neb_ancientgate",
+    "value" : {
+      "primaryDungeon" : "neb_ancientgate",
+      "threatLevel" : 5,
+      "gravity" : 30,
+      "worldSize" : [2000, 2000],
+      "dungeonBaseHeight" : 1300,
+      "dungeonSurfaceHeight" : 1209,
+      "biome" : "thickjungle",
+      "environmentStatusEffects" : ["dontstarve"],
+      "ambientLightLevel" : [32, 32, 32],
+      "ambientNoises" : "/sfx/environmental/space_loop4.ogg",
+      "musicTrack" : "/music/gravitational-collapse-loop.ogg"
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/neb_raidarena1",
+    "value" : {
+      "primaryDungeon" : "neb_raidarena1",
+      "threatLevel" : 1,
+      "gravity" : 30,
+      "worldSize" : [2000, 2000],
+      "dungeonBaseHeight" : 1359,
+      "dungeonSurfaceHeight" : 1209,
+      "biome" : "moon",
+      "environmentStatusEffects" : ["dontstarve"],
+      "ambientLightLevel" : [32, 32, 32],
+      "ambientNoises" : "/sfx/environmental/space_loop5.ogg",
+      "musicTrack" : "/music/crystal-exploration2.ogg"
+    }
+  }
+]

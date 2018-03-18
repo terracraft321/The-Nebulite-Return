@@ -1,0 +1,74 @@
+{
+  "itemName" : "neb_staff_raid1",
+  "price" : 960,
+  "level" : 5,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "???",
+  "shortdescription" : "^orange;Black Sun^reset;",
+  "tooltipKind" : "quarterstaff",
+  "category" : "quarterstaff",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","quarterstaff"],
+
+  "inventoryIcon" : "neb_staff_raid1.png",
+
+  "animation" : "/items/active/weapons/nebulite/neb_staff.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "neb_staff_raid1.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/melee/swing_broadsword.ogg" ]
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/melee/neb_meleeweapon.lua"],
+
+  "elementalType" : "dark",
+
+  "aimOffset" : -1.0,
+
+  "primaryAbilityType" : "neb_flurry",
+  "primaryAbility" : {
+    "fireTime" : 0.25,
+    "baseDps" : 7,
+    "scripts" : ["/items/active/weapons/melee/abilities/spear/flurry/neb_flurry.lua"],
+    "damageConfig" : {
+      "damageSourceKind" : "spear",
+      "statusEffects" : [ ],
+      "knockback" : 0,
+      "timeout" : 0.15,
+      "timeoutGroup" : "primary"
+    },
+    "cycleRotationOffsets" : [0, 3.5, -3.5],
+    "stances" : {
+	  "idle" : {
+	    "armRotation" : -90,
+	    "weaponRotation" : 0,
+	    "twoHanded" : false,
+	    "weaponOffset" : [0.0, 0.0],
+
+	    "allowRotate" : false,
+	    "allowFlip" : true
+	  },
+      "swing" : {
+        "duration" : 0.1,
+        "armRotation" : -15,
+        "weaponRotation" : -75,
+        "twoHanded" : true,
+        "weaponOffset" : [0.0, 0.0],
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  },
+
+  "altAbilityType" : "neb_gravityslash",
+  
+  "bonusAbilityType" : "neb_backstep",
+
+  "builder" : "/items/buildscripts/neb_buildunrandweapon.lua"
+}

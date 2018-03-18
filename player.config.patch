@@ -1,0 +1,17 @@
+[
+  {
+    "op":"add",
+    "path":"/species/-",
+    "value":"nebulite"
+  },
+  {
+    "op": "add",
+    "path": "/defaultCodexes/nebulite",
+    "value": [ "protectorate1", "protectorate2" ]
+  },
+  {
+    "op" : "add",
+    "path" : "/defaultBlueprints/tier1/-",
+    "value" : { "item" : "neb_transporter" }
+  }
+]

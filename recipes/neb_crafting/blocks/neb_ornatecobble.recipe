@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "neb_ornateblock", "count" : 1 }
+  ],
+  "output" : { "item" : "neb_ornatecobble", "count" : 1 },
+  "groups" : [ "neb_blockfilter", "neb_synthesizer" ]
+}

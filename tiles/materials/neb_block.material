@@ -1,0 +1,23 @@
+{
+  "materialId" : 7864,
+  "materialName" : "neb_block",
+  "particleColor" : [71, 66, 57, 255],
+  "itemDrop" : "neb_block",
+  "description" : "A nebulite block.",
+  "shortdescription" : "Nebulite Block",
+  "glitchDescription" : "Statement. An ancient block.",
+  "floranDescription" : "Block.",
+  "footstepSound" : "/sfx/blocks/footstep_stone.ogg",
+  "health" : 16,
+  "category": "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "neb_block.png",
+    "variants" : 10,
+    "lightTransparent" : false,
+    "multiColored" : true,
+    "occludesBelow" : true,
+    "zLevel" : 600
+  }
+}

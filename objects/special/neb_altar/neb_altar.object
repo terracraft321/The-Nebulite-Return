@@ -1,0 +1,39 @@
+{
+  "objectName" : "neb_altar",
+  "rarity" : "Legendary",
+  "category" : "decorative",
+  "price" : 70,
+  
+  "lightColor" : [200, 150, 200],
+
+  "description" : "The origin of life itself.",
+  "shortdescription" : "Altar of Origin",
+  "race" : "nebulite",
+  
+  "soundEffect" : "/sfx/objects/neb_altar_loop.ogg",
+
+  "inventoryIcon" : "neb_altaricon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "neb_altar.png:<color>.<frame>", "fullbright" : true }, { "image" : "neb_altarlit.png:<color>.<frame>" } ],
+      "imagePosition" : [-64, 0],
+      "frames" : 16,
+      "animationCycle" : 4.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "flipImages" : true,
+      "direction" : "left"
+    },
+    {
+      "imageLayers" : [ { "image" : "neb_altar.png:<color>.<frame>", "fullbright" : true }, { "image" : "neb_altarlit.png:<color>.<frame>" } ],
+      "imagePosition" : [-64, 0],
+      "frames" : 16,
+      "animationCycle" : 4.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "right"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "durasteelbar", "count" : 6 }
+  ],
+  "output" : { "item" : "neb_staff_4", "count" : 1 },
+  "groups" : [ "craftinganvil3", "weapons", "all" ]
+}

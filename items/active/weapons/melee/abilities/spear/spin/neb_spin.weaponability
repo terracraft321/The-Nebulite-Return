@@ -1,0 +1,92 @@
+{
+  "animationParts" : { },
+  "animationCustom" : {
+    "animatedParts" : {
+      "stateTypes" : {
+        "spinSwoosh" : {
+          "default" : "idle",
+          "states" : {
+            "idle" : {
+            },
+            "spin" : {
+              "frames" : 1,
+              "cycle" : 0.5,
+              "properties" : {
+                "persistentSound" : "/sfx/melee/neb_twirl_loop.ogg"
+              }
+            }
+          }
+        }
+      },
+      "parts" : {
+        "spinSwoosh" : {
+          "properties" : {
+            "zLevel" : 1,
+            "centered" : true,
+            "transformationGroups" : ["swoosh"],
+            "offset" : [0.97, 0.2],
+            "fullbright" : false,
+            "damageArea" : [ [-3.75, 1.75], [-1.75, 3.75], [1.75, 3.75], [3.75, 1.75], [3.75, -1.75], [1.75, -3.75], [-1.75, -3.75], [-3.75, -1.75] ]
+          },
+          "partStates" : {
+            "spinSwoosh" : {
+              "idle" : {
+                "properties" : {
+                  "image" : ""
+                }
+              },
+              "spin" : {
+                "properties" : {
+                  "image" : "/items/active/weapons/melee/abilities/spear/spin/neb_spinswoosh.png:<frame>"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+
+  "ability" : {
+    "name" : "Slow Blade Whirl",
+    "type" : "neb_spearspin",
+    "scripts" : ["/items/active/weapons/melee/abilities/spear/spin/neb_spin.lua"],
+    "class" : "Spin",
+
+    "energyUsage" : 60,
+    "cooldownTime" : 0.2,
+
+    "damageConfig" : {
+      "damageSourceKind" : "spear",
+      "statusEffects" : [ ],
+      "baseDamage" : 7.5,
+      "knockbackMode" : "none",
+      "knockback" : 30,
+      "timeout" : 0.5,
+      "timeoutGroup" : "alt"
+    },
+
+    "spinRate" : -1200,
+
+    "stances" : {
+      "idle" : {
+	    "armRotation" : -90,
+	    "weaponRotation" : 0,
+	    "twoHanded" : false,
+	    "weaponOffset" : [0.0, 0.0],
+
+	    "allowRotate" : false,
+	    "allowFlip" : true
+	  },
+      "spin" : {
+        "armRotation" : 80,
+        "weaponRotation" : -40,
+        "twoHanded" : true,
+        "weaponOffset" : [0, -1],
+
+        "allowRotate" : false,
+        "allowFlip" : true
+      }
+    }
+  }
+}

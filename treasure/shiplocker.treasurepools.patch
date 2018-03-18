@@ -1,0 +1,17 @@
+[
+  {
+    "op": "add",
+    "path": "/nebuliteStarterTreasure",
+    "value": [
+      [0, {
+        "fill" : [
+          {"item" : [ "flashlight", 1]},
+          {"item" : [ "ancienttorch", 10 ]},
+          {"item" : [ "neb_transporterbroken", 1 ]},
+          {"item" : [ "neb_staff_1", 1]},
+          {"item" : [ "neb_bow_1", 1]}
+        ]
+      } ]
+    ]
+  }
+]

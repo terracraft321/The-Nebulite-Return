@@ -1,0 +1,24 @@
+{
+  "itemName" : "neb_reward2",
+  "price" : 0,
+  "level" : 2,
+  "maxStack" : 100,
+  "rarity" : "Common",
+  "category" : "mysteriousReward",
+  "description" : "Contains a Level 2 weapon!",
+  "shortdescription" : "^orange;Lv.2^white; Loot Box",
+  "twoHanded" : true,
+
+  "inventoryIcon" : "neb_reward2.png",
+  "animation" : "neb_reward.animation",
+  "animationCustom" : {},
+  "scripts" : ["neb_reward.lua"],
+
+  "fireTime" : 1.0,
+  "fireOffset" : [1.0, 0.0],
+
+  "treasure" : {
+    "pool" : "neb_rewardbox",
+    "level" : 2
+  }
+}

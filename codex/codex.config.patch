@@ -1,0 +1,5 @@
+[ {
+  "op" : "add",
+  "path" : "/initialcodex/nebulite",
+  "value" : [ "controls", "nebuliteorigins", "nebuliteescape", "survivalguide" ]
+} ]

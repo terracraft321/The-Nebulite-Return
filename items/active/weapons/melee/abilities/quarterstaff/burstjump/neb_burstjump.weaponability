@@ -1,0 +1,75 @@
+{
+  "animationParts" : { },
+  "animationCustom" : {
+    "sounds" : {
+      "fireTravelSlash" : [ "/sfx/gun/grenadeblast_fire1.ogg" ],
+      "iceTravelSlash" : [ "/sfx/gun/grenadeblast_ice1.ogg" ],
+      "electricTravelSlash" : [ "/sfx/gun/grenadeblast_electric1.ogg" ],
+      "poisonTravelSlash" : [ "/sfx/gun/grenadeblast_poison1.ogg" ]
+    }
+  },
+
+  "ability" : {
+    "name" : "Jump Smash",
+    "type" : "neb_burstjump",
+    "scripts" : ["/items/active/weapons/melee/abilities/quarterstaff/burstjump/neb_burstjump.lua"],
+    "class" : "TravelingSlash",
+
+    "projectileOffset" : [0,0],
+    "elementalConfig" : {
+      "physical" : {},
+      "fire" : {
+        "projectileType" : "neb_fireburstexplosion",
+        "damageConfig" : { "statusEffects" : [ "burning" ] }
+      },
+      "ice" : {
+        "projectileType" : "neb_iceburstexplosion",
+        "damageConfig" : { "statusEffects" : [ "frostslow" ] }
+      },
+      "poison" : {
+        "projectileType" : "neb_poisonburstexplosion",
+        "damageConfig" : { "statusEffects" : [ "weakpoison" ] }
+      },
+      "electric" : {
+        "projectileType" : "neb_electricburstexplosion",
+        "damageConfig" : { "statusEffects" : [ "electrified" ] }
+      }
+    },
+
+    "baseDamage" : 16,
+    "energyUsage" : 120,
+    "cooldownTime" : 1.5,
+
+    "stances" : {
+      "idle" : {
+	    "armRotation" : -90,
+	    "weaponRotation" : 0,
+	    "twoHanded" : false,
+	    "weaponOffset" : [0.0, 0.0],
+
+	    "allowRotate" : false,
+	    "allowFlip" : true
+	  },
+      "windup" : {
+        "duration" : 0.4,
+        "armRotation" : 90,
+        "weaponRotation" : 20,
+        "twoHanded" : true,
+        "weaponOffset" : [0.0, -1.0],
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "fire" : {
+        "duration" : 0.4,
+        "armRotation" : -20,
+        "weaponRotation" : 30,
+        "twoHanded" : true,
+	    "weaponOffset" : [0.0, 0.0],
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  }
+}

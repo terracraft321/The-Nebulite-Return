@@ -1,0 +1,32 @@
+{
+  "neb_returnconsole" : {
+    "type" : "tutorial",
+    "unique" : false,
+    "portraitImage" : "/interface/chatbubbles/static.png:<frame>",
+    "portraitFrames" : 4,
+    "portraitSpeed" : 0.30,
+    "senderName" : "SAIL",
+    "persistTime" : 1.0,
+    "text" : "ERROR"
+  },
+  "neb_returnconsole1" : {
+    "type" : "tutorial",
+    "unique" : false,
+    "portraitImage" : "/interface/chatbubbles/static.png:<frame>",
+    "portraitFrames" : 4,
+    "portraitSpeed" : 0.30,
+    "senderName" : "SAIL",
+    "persistTime" : 2.0,
+    "text" : "UNABLE TO CONNECT TO SHIP-BASED ARTIFICIAL INTELLIGENCE LATTICE"
+  },
+  "neb_returnconsole2" : {
+    "type" : "tutorial",
+    "unique" : false,
+    "portraitImage" : "/interface/chatbubbles/static.png:<frame>",
+    "portraitFrames" : 4,
+    "portraitSpeed" : 0.30,
+    "senderName" : "SAIL",
+    "persistTime" : 3.0,
+    "text" : "SIGNAL LOST..."
+  }
+}

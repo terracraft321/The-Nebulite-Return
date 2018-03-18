@@ -1,0 +1,59 @@
+{
+  "objectName" : "neb_shipdoor",
+  "tags" : ["nebulite","door"],
+  "rarity" : "Common",
+
+  "category" : "door",
+  "printable" : false,
+  "price" : 250,
+  "description" : "A door. Possibly suitable for a spaceship.",
+  "shortdescription" : "Nebulite Ship Door",
+  "race" : "nebulite",
+
+  "apexDescription" : "A door made of an ancient stone.",
+  "avianDescription" : "A sturdy door of ancient origin.",
+  "floranDescription" : "looksss like an ancient door",
+  "glitchDescription" : "Guarded. It would not be surprising if this ancient door failed to open.",
+  "humanDescription" : "I bet these runes say 'open' and 'close'.",
+  "hylotlDescription" : "This door is a relic of a time long past.",
+  "novakidDescription" : "This door is a relic.",
+
+  "inventoryIcon" : "neb_shipdooricon.png",
+  "orientations" : [
+    {
+      "image" : "neb_shipdoor.png:default",
+      "imagePosition" : [-20, 0],
+      "renderLayer" : "Object+5",
+      "flipImages" : true,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ],
+      "direction" : "left"
+    },
+    {
+      "image" : "neb_shipdoor.png:default",
+      "imagePosition" : [-20, 0],
+      "renderLayer" : "Object+5",
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ],
+      "direction" : "right"
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/door.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "open" : [ "/sfx/objects/apexstatue3_switchon.ogg" ],
+      "close" : [ "/sfx/objects/apexstatue3_switchoff.ogg" ]
+    }
+  },
+  "animationParts" : {
+    "door" : "neb_shipdoor.png"
+  },
+  "animationPosition" : [-20, 0],
+
+  "inputNodes" : [ [-1, 4] ],
+  "outputNodes" : [ [0, 0] ]
+}

@@ -1,0 +1,86 @@
+Revision 4
+- Added Nebulite Transporter vehicle.
+- Added several ancient items to the Nebulite Synthesizer.
+- Added a slow effect to default effects.
+- Removed Nebulite torch. This is now just replaced with the normal ancient torch, since it was redundant.
+Revision 3
+- Updated revision goals codex.
+- Changed spatial anomalies on the starmap to supernovas. Spatial Anomalies now only have a 25% chance to spawn in these systems.
+- Added raid boss: Forgotten Sentry. You can access this from the teleporter at the Temple of Origin.
+- Added boss weapon: Black Sun (Drops from Forgotten Sentry). [ID: neb_staff_raid1]
+- Added Loot Fairies.
+- Added Nebulite pet.
+- Added Nebulite Nebulite Synthesizer to the T4 ship. You can craft various nebulite-themed items here.
+- Added an alarm sound to the T0 ship.
+- Added a supernova star to supernova systems.
+- Added Nebulite starter armor.
+- Changed the color of the Nebulite Pillar to better match the new theme.
+- Changed the color of the Nebulite Teleporter to better match the new theme.
+- Changed the color of the Nebulite Captain's Chair to better match the new theme.
+- Changed the layout of the T4 ship a bit.
+- Changed the appearance of the ship console.
+- Changed the texture of the ships a bit.
+- Changed some of S.A.I.L's starter text.
+- Changed S.A.I.L's appearance a bit.
+- Changed the appearance of supernova systems on the starmap.
+- Removed the broken ship locker's audio.
+- Reverted the change of unifying male and female heads. Each gender now has their own heads again.
+- Fixed texture on the T4 ship.
+- Updated the appearance of Tier 5-8 ships.
+- Made a slight tweak to the ship light sprites.
+Revision 2
+- Updated revision goals codex.
+- Added Nebulite race status effects. Nebulites can no longer starve and heal passively (0.5hp/sec), but they only start with 85 health rather than 100.
+- Added a brief invulnerability period to backstep and vault.
+- Added Apprentice Energy Bow. (Tier 1)
+- Added a new dungeon world to Spatial Anomalies. This is used as a gateway to the Temple of Origin.
+- Added a boss; Corrupted Huntsman. He's located at the new dungeon world.
+- Added reward boxes. These drop from the new boss.
+- Fixed a crash when trying to view quarterstaves at a crafting station.
+- Fixed being able to bookmark multiple instances of the Temple of Origin.
+- Fixed Nebulite ship doors.
+- Fixed input nodes on Nebulite ship lights and Nebulite torches.
+- Fixed Nebulite platforms being registered as a solid block.
+- Changed the Nebulite starter treasure.
+- Updated the appearance of Tier 0-4 ships. More on the way, gotta finish their appearances.
+- Nebulite microdungeons now have a 100% chance to reward a rare quarterstaff and an insidia crystal.
+
+MAIN 3.0 CHANGELOG -------------------------------------------------------
+- Updated the mod to the latest version of Starbound.
+- Added Nebulite race status effects. Nebulites can no longer starve and heal passively (0.5hp/sec), but they only start with 85 health rather than 100 and move at 80% normal speed.
+- Added skill abilities to quarterstaves. These are similar to alt abilities, but are not designed for combat.
+- Added microdungeons to the world. These spawn corrupted crutters and supply chests at them.
+- Added energy bows. This is the Nebulites ranged alternative to guns.
+- Added Spatial Anomalies.
+- Added Supernova star systems. Spatial Anomalies have a 25% chance to spawn in these systems.
+- Added a new quarterstaff alt ability: Energy Javelin.
+- Added the ability to bookmark the Temple of Origin.
+- Added an alarm sound to the T0 ship.
+- Added raid boss: Forgotten Sentry. You can access this from the teleporter at the Temple of Origin.
+- Added boss weapon: Black Sun (Drops from Forgotten Sentry).
+- Added Nebulite Nebulite Synthesizer to the T4 ship.
+- Added Nebulite Transporter vehicle. Repair Broken Transporter controllers to obtain one!
+- Changed Nebulite Research Station to Nebulite Synthesizer. You can craft various nebulite-themed items here.
+- Changed the name of Covenant to Temple of Origin.
+- Changed the appearance of the Nebulite ship.
+- Changed the appearance of the Nebulite boss.
+- Changed the appearance of the Nebulite ship pet.
+- Changed the color of the Nebulite Pillar to better match the new theme.
+- Changed the color of the Nebulite Teleporter to better match the new theme.
+- Changed the color of the Nebulite Captain's Chair to better match the new theme.
+- Changed the first boss to the Corrupted Huntsman. He can now be found at Spatial Anomalies.
+- Changed the functionality of quarterstaves.
+- Changed the Nebulite starter treasure.
+- Changed the appearance of several Nebulite heads.
+- Changed some of S.A.I.L's starter text.
+- Changed S.A.I.L's appearance a bit.
+- Removed corrupted crutters spawning everywhere.
+- Removed supply chests spawning underground.
+- Removed Nebulite guns.
+- Removed Nebulite torch. This is now just replaced with the normal ancient torch, since it was redundant.
+- Removed Annihilator Ray staff ability.
+- Removed some head styles.
+- Removed the broken ship locker's audio.
+- Removed Nebulite alarm.
+- The Temple of Origin is now accessed via Spatial Anomalies.
+- Made a slight tweak to the ship light sprites.

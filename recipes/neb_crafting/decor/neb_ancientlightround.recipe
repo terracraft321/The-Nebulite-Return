@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "cobblestonematerial", "count" : 5 },
+    { "item" : "outpostlight", "count" : 1 }
+  ],
+  "output" : { "item" : "ancientlightround", "count" : 1 },
+  "groups" : [ "neb_decorfilter", "neb_synthesizer" ]
+}

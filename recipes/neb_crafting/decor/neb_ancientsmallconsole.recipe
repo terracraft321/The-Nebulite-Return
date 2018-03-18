@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "cobblestonematerial", "count" : 25 },
+    { "item" : "tier3switch", "count" : 1 }
+  ],
+  "output" : { "item" : "ancientsmallconsole", "count" : 1 },
+  "groups" : [ "neb_decorfilter", "neb_synthesizer" ]
+}

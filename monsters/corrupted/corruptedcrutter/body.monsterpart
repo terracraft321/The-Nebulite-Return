@@ -1,0 +1,9 @@
+{
+  "name" : "corruptedcrutter",
+  "category" : "corruptedcrutter",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "corruptedcrutter.png"
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "animationParts" : { },
+  "animationCustom" : {
+    "animatedParts" : {
+      "stateTypes" : {
+        "parryShield" : {
+          "default" : "inactive",
+          "states" : {
+            "inactive" : {},
+            "active" : {},
+            "block" : {
+              "frames" : 1,
+              "cycle" : 0.2,
+              "mode" : "transition",
+              "transition" : "active"
+            }
+          }
+        }
+      },
+      "parts" : {
+        "parryShield" : {
+          "properties" : {
+            "zLevel" : -1,
+            "centered" : true,
+            "offset" : [-0.75, 1.75],
+            "transformationGroups" : ["weapon"],
+            "rotationCenter" : [0, 0]
+          },
+          "partStates" : {
+            "parryShield" : {
+              "inactive" : {
+                "properties" : {
+                  "image" : ""
+                }
+              },
+              "active" : {
+                "properties" : {
+                  "image" : ""
+                }
+              },
+              "block" : {
+                "properties" : {
+                  "image" : ""
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "sounds" : {
+      "step" : [ "/sfx/tech/tech_walljump.ogg" ]
+    }
+  },
+
+  "ability" : {
+    "name" : "Vault",
+    "type" : "neb_vault",
+    "scripts" : ["/items/active/weapons/melee/abilities/skills/vault/neb_vault.lua"],
+    "class" : "Parry",
+
+    "energyUsage" : 0.0,
+    "cooldownTime" : 1.0,
+    "iFramesTime" : 0.5,
+    "stances" : {
+      "idle" : {
+	    "armRotation" : -90,
+	    "weaponRotation" : 0,
+	    "twoHanded" : false,
+	    "weaponOffset" : [0.0, 0.0],
+
+	    "allowRotate" : false,
+	    "allowFlip" : true
+	  },
+      "parry" : {
+        "duration" : 1.5,
+        "armRotation" : -100,
+        "weaponRotation" : 0,
+        "twoHanded" : false,
+        "weaponOffset" : [0.0, 0.0],
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  }
+}

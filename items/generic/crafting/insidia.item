@@ -1,0 +1,8 @@
+{
+  "itemName" : "insidia",
+  "price" : 200,
+  "rarity" : "Legendary",
+  "inventoryIcon" : "insidia.png",
+  "description" : "This stone radiates dark energy. I wonder what it's used for?",
+  "shortdescription" : "Insidia Crystal"
+}

@@ -1,0 +1,12 @@
+[
+  {
+    "op" : "add",
+    "path" : "/destinations/-",
+    "value": {
+        "name" : "Temple of Origin",
+        "planetName" : "???",
+        "warpAction" : "InstanceWorld:neb_templedungeon",
+        "icon" : "neb_templedungeon"
+    }
+  }
+]

@@ -1,0 +1,29 @@
+{
+  "name" : "neb_anomaly",
+  "friendlyName" : "Anomaly",
+
+  "parallax" : "/parallax/space/neb_anomaly.parallax",
+
+  "spawnProfile" : {
+    "groups" : [],
+    "monsterParameters" : {}
+  },
+
+  "hueShiftOptions" : [0],
+  
+  "skyOptions" : [
+   {
+      "mainColor" : [0, 0, 0],
+
+      "morningColors" : [ [0, 0, 0], [0, 0, 0] ],
+      "dayColors" : [ [0, 0, 0], [0, 0, 0] ],
+      "eveningColors" : [ [0, 0, 0], [0, 0, 0] ],
+      "nightColors" : [ [0, 0, 0, 0], [0, 0, 0, 0] ],
+
+      "morningLightColor" : [32, 32, 32],
+      "dayLightColor" : [32, 32, 32],
+      "eveningLightColor" : [32, 32, 32],
+      "nightLightColor" : [32, 32, 32]
+    }
+  ]
+}

@@ -1,0 +1,176 @@
+{
+  "nebuliteDungeonTreasure" : [
+    [0, {
+      "fill" : [
+        {"item" : "insidia"},
+        {"item" : "rarequarterstaff"},
+        {"item" : "neb_transporterbroken"}
+      ],
+      "poolRounds" : [
+        [0.5, 2],
+        [0.3, 3],
+        [0.2, 4]
+      ],
+      "pool" : [
+        {"weight" : 1.0, "pool" : "basicTreasure"}
+      ]
+    }]
+  ],
+  
+  "nebuliteCorruptedCrutterTreasure" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.83, "pool" : "money"},
+        {"weight" : 0.06, "item" : "mattermodulecomponent"},
+        {"weight" : 0.10, "item" : "venomsample"},
+        {"weight" : 0.001, "item" : "crutteraf"},
+        {"weight" : 0.05, "item" : "insidia"}
+      ]
+    }]
+  ],
+  
+  //BETA STUFF
+  "commonquarterstaff" : [
+    [0, {
+      "pool" : [
+        {"weight" : 1.0, "item" : "commonquarterstaff"}
+      ]
+    }]
+  ],
+  "uncommonquarterstaff" : [
+    [0, {
+      "pool" : [
+        {"weight" : 1.0, "item" : "uncommonquarterstaff"}
+      ]
+    }]
+  ],
+  "rarequarterstaff" : [
+    [0, {
+      "pool" : [
+        {"weight" : 1.0, "item" : "rarequarterstaff"}
+      ]
+    }]
+  ],
+  "neb_boss1_rewards" : [
+    [0, {
+      "poolRounds" : [
+        [1.0, 1],
+        [0.5, 2],
+        [0.25, 3],
+        [0.1, 4]
+      ],
+      "pool" : [
+        {"weight" : 0.75, "item" : "neb_reward"},
+        {"weight" : 0.5, "item" : "neb_reward2"},
+        {"weight" : 0.25, "item" : "neb_reward3"},
+        {"weight" : 0.1, "item" : "neb_reward4"},
+        {"weight" : 0.05, "item" : "neb_reward5"},
+        {"weight" : 0.01, "item" : "neb_reward6"}
+      ]
+    }]
+  ],
+  "neb_raidboss1_rewards" : [
+    [0, {
+      "poolRounds" : [
+        [1.0, 2],
+        [0.75, 3],
+        [0.5, 4],
+        [0.25, 5]
+      ],
+      "pool" : [
+        {"weight" : 0.1, "item" : "neb_staff_raid1"},
+        
+        {"weight" : 1.0, "item" : "neb_reward4"},
+        {"weight" : 0.5, "item" : "neb_reward5"},
+        {"weight" : 0.25, "item" : "neb_reward6"}
+      ]
+    }]
+  ],
+  "neb_rewardbox" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.05, "item" : "boomerang"},
+        {"weight" : 0.05, "item" : "chakram"},
+        {"weight" : 0.05, "item" : "ropewhip"},
+        {"weight" : 0.05, "item" : "gauntlet"},
+        {"weight" : 0.05, "item" : "flamethrower"},
+        {"weight" : 0.05, "item" : "poisonbow"},
+        {"weight" : 0.05, "item" : "pollenpump"},
+        
+        {"weight" : 0.01, "item" : "vinewhip"},
+        {"weight" : 0.01, "item" : "wormgun"},
+        {"weight" : 0.01, "item" : "wormerang"},
+        {"weight" : 0.01, "item" : "gristlegun"},
+        {"weight" : 0.01, "item" : "soulseeker"},
+        {"weight" : 0.01, "item" : "electricrailgun"},
+        {"weight" : 0.01, "item" : "timepierce"},
+        {"weight" : 0.01, "item" : "eyesword"},
+        {"weight" : 0.01, "item" : "intestinewhip"},
+        {"weight" : 0.01, "item" : "gnomegun"},
+        
+        {"weight" : 0.005, "item" : "supernovaglove"},
+        {"weight" : 0.005, "item" : "astrosabredeluxe"},
+        {"weight" : 0.005, "item" : "energywhip"},
+        {"weight" : 0.005, "item" : "teslastaff"},
+        {"weight" : 0.005, "item" : "magnorbs"},
+        {"weight" : 0.005, "item" : "tentaclegun"},
+        {"weight" : 0.005, "item" : "exmachina"},
+        {"weight" : 0.005, "item" : "energypickaxe"},
+        {"weight" : 0.005, "item" : "evileye"},
+        {"weight" : 0.005, "item" : "remotegrenadelauncher"},
+        {"weight" : 0.005, "item" : "doomcannon"},
+      
+        {"weight" : 0.25, "item" : "rarequarterstaff"},
+        {"weight" : 0.25, "item" : "rarebroadsword"},
+        {"weight" : 0.25, "item" : "rareaxe"},
+        {"weight" : 0.25, "item" : "rarespear"},
+        {"weight" : 0.25, "item" : "rarehammer"},
+        {"weight" : 0.25, "item" : "raredagger"},
+        {"weight" : 0.25, "item" : "rareshortsword"},
+        {"weight" : 0.25, "item" : "rarepistol"},
+        {"weight" : 0.25, "item" : "raremachinepistol"},
+        {"weight" : 0.25, "item" : "rareassaultrifle"},
+        {"weight" : 0.25, "item" : "rareshotgun"},
+        {"weight" : 0.25, "item" : "raresniperrifle"},
+        {"weight" : 0.25, "item" : "rarepistol"},
+        {"weight" : 0.25, "item" : "raremachinepistol"},
+        {"weight" : 0.25, "item" : "raregrenadelauncher"},
+        {"weight" : 0.25, "item" : "rarerocketlauncher"},
+        
+        {"weight" : 0.5, "item" : "uncommonquarterstaff"},
+        {"weight" : 0.5, "item" : "uncommonbroadsword"},
+        {"weight" : 0.5, "item" : "uncommonaxe"},
+        {"weight" : 0.5, "item" : "uncommonspear"},
+        {"weight" : 0.5, "item" : "uncommonhammer"},
+        {"weight" : 0.5, "item" : "uncommondagger"},
+        {"weight" : 0.5, "item" : "uncommonshortsword"},
+        {"weight" : 0.5, "item" : "uncommonpistol"},
+        {"weight" : 0.5, "item" : "uncommonmachinepistol"},
+        {"weight" : 0.5, "item" : "uncommongrenadelauncher"},
+        {"weight" : 0.5, "item" : "uncommonassaultrifle"},
+        {"weight" : 0.5, "item" : "uncommonshotgun"},
+        {"weight" : 0.5, "item" : "uncommonsniperrifle"},
+        {"weight" : 0.5, "item" : "uncommonpistol"},
+        {"weight" : 0.5, "item" : "uncommonmachinepistol"},
+        {"weight" : 0.5, "item" : "uncommonrocketlauncher"},
+        
+        {"weight" : 1.0, "item" : "commonquarterstaff"},
+        {"weight" : 1.0, "item" : "commonbroadsword"},
+        {"weight" : 1.0, "item" : "commonaxe"},
+        {"weight" : 1.0, "item" : "commonspear"},
+        {"weight" : 1.0, "item" : "commonhammer"},
+        {"weight" : 1.0, "item" : "commondagger"},
+        {"weight" : 1.0, "item" : "commonshortsword"},
+        {"weight" : 1.0, "item" : "commonpistol"},
+        {"weight" : 1.0, "item" : "commonmachinepistol"},
+        {"weight" : 1.0, "item" : "commonassaultrifle"},
+        {"weight" : 1.0, "item" : "commonshotgun"},
+        {"weight" : 1.0, "item" : "commonsniperrifle"},
+        {"weight" : 1.0, "item" : "commonpistol"},
+        {"weight" : 1.0, "item" : "commonmachinepistol"},
+        {"weight" : 0.7, "item" : "commongrenadelauncher"},
+        {"weight" : 0.7, "item" : "commonrocketlauncher"}
+      ]
+    }]
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "animationParts" : { },
+  "animationCustom" : {
+    "animatedParts" : {
+      "stateTypes" : {
+        "propelSpin" : {
+          "default" : "idle",
+          "states" : {
+            "idle" : {
+            },
+            "spin" : {
+              "frames" : 1,
+              "cycle" : 0.5,
+              "properties" : {
+                "persistentSound" : "/sfx/melee/spear_twirl_loop.ogg"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+
+  "ability" : {
+    "name" : "Glide",
+    "type" : "neb_propel",
+    "scripts" : ["/items/active/weapons/melee/abilities/skills/propel/neb_propel.lua"],
+    "class" : "Spin",
+
+    "energyUsage" : 0.0,
+    "cooldownTime" : 0.25,
+    
+    "damageConfig" : {
+      "damageSourceKind" : "spear",
+      "statusEffects" : [ ],
+      "baseDamage" : 0,
+      "knockbackMode" : "none",
+      "knockback" : 0,
+      "timeout" : 0.5,
+      "timeoutGroup" : "alt"
+    },
+    
+    "spinRate" : -2000,
+    "flightTime" : 4.0,
+    
+    "stances" : {
+      "idle" : {
+	    "armRotation" : -90,
+	    "weaponRotation" : 0,
+	    "twoHanded" : false,
+	    "weaponOffset" : [0.0, 0.0],
+
+	    "allowRotate" : false,
+	    "allowFlip" : true
+	  },
+      "spin" : {
+        "duration" : 1.5,
+        "armRotation" : 80,
+        "weaponRotation" : -40,
+        "twoHanded" : true,
+        "weaponOffset" : [0, -1],
+
+        "allowRotate" : false,
+        "allowFlip" : true
+      }
+    }
+  }
+}

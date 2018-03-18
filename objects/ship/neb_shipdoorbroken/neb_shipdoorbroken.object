@@ -1,0 +1,39 @@
+{
+  "objectName" : "neb_shipdoorBroken",
+  "tags" : ["nebulite"],
+  "printable" : false,
+  "rarity" : "Common",
+  
+  "category" : "decorative",
+  "description" : "A door. Possibly suitable for a spaceship.",
+  "shortdescription" : "Nebulite Ship Door",
+  "race" : "nebulite",
+
+  "apexDescription" : "an ancient door.",
+  "avianDescription" : "an ancient door.",
+  "floranDescription" : "looksss like an ancient door",
+  "glitchDescription" : "Analysis. An ancient door of unknown origin.",
+  "humanDescription" : "A sturdy door of ancient origin.",
+  "hylotlDescription" : "This door is a relic.",
+
+  "inventoryIcon" : "neb_shipdoorBrokenicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "neb_shipdoorBroken.png:default",
+      "imagePosition" : [-20, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ],
+      "collision" : "solid",
+      "collisionSpaces" : [ [-1, 0], [0, 0], [-1, 1], [0, 1], [-1, 2], [0, 2], [-1, 3], [0, 3], [-1, 4], [0, 4] ]
+    }
+  ],
+
+  "animation" : "/objects/noisy/noisy.animation",
+
+  "scripts" : [
+    "/objects/noisy/noisy.lua"
+  ],
+  
+  "sounds" : [ "/sfx/objects/ancientconsole_on.ogg" ]
+}

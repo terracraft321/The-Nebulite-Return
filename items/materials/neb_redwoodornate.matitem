@@ -1,0 +1,9 @@
+{
+  "itemName" : "neb_redwoodornate",
+  "rarity" : "Rare",
+  "inventoryIcon" : "neb_redwoodornate.png",
+  "description" : "A beautiful decorative redwood beam. Used in grand Nebulite temples.",
+  "shortdescription" : "Ornate Redwood Beam",
+
+  "materialId" : 7874
+}

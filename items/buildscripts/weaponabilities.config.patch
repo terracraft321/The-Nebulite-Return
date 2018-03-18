@@ -1,0 +1,81 @@
+[
+  //CUSTOM
+  {
+    "op" : "add",
+    "path" : "/neb_burstjump",
+    "value" : "/items/active/weapons/melee/abilities/quarterstaff/burstjump/neb_burstjump.weaponability"
+  },
+  {
+    "op" : "add",
+    "path" : "/neb_javelin",
+    "value" : "/items/active/weapons/melee/abilities/quarterstaff/javelin/neb_javelin.weaponability"
+  },
+  {
+    "op" : "add",
+    "path" : "/neb_gravityslash",
+    "value" : "/items/active/weapons/melee/abilities/quarterstaff/gravityslash/neb_gravityslash.weaponability"
+  },
+  //SPECIAL CUSTOM
+  {
+    "op" : "add",
+    "path" : "/neb_javelin_aeg",
+    "value" : "/items/active/weapons/melee/abilities/quarterstaff/javelin/neb_javelin_aeg.weaponability"
+  },
+  //SKILLS
+  {
+    "op" : "add",
+    "path" : "/neb_backstep",
+    "value" : "/items/active/weapons/melee/abilities/skills/backstep/neb_backstep.weaponability"
+  },
+  {
+    "op" : "add",
+    "path" : "/neb_vault",
+    "value" : "/items/active/weapons/melee/abilities/skills/vault/neb_vault.weaponability"
+  },
+  {
+    "op" : "add",
+    "path" : "/neb_propel",
+    "value" : "/items/active/weapons/melee/abilities/skills/propel/neb_propel.weaponability"
+  },
+  {
+    "op" : "add",
+    "path" : "/neb_parry",
+    "value" : "/items/active/weapons/melee/abilities/skills/parry/neb_parry.weaponability"
+  },
+  //EDITS
+  {
+    "op" : "add",
+    "path" : "/neb_spearspin",
+    "value" : "/items/active/weapons/melee/abilities/spear/spin/neb_spin.weaponability"
+  },
+  {
+    "op" : "add",
+    "path" : "/neb_fastspearspin",
+    "value" : "/items/active/weapons/melee/abilities/spear/spin/neb_spin_fast.weaponability"
+  },
+  {
+    "op" : "add",
+    "path" : "/neb_flurry",
+    "value" : "/items/active/weapons/melee/abilities/spear/flurry/neb_flurry.weaponability"
+  },
+  {
+    "op" : "add",
+    "path" : "/neb_spinslash",
+    "value" : "/items/active/weapons/melee/abilities/broadsword/spinslash/neb_spinslash.weaponability"
+  },
+  {
+    "op" : "add",
+    "path" : "/neb_traildash",
+    "value" : "/items/active/weapons/melee/abilities/broadsword/traildash/neb_traildash.weaponability"
+  },
+  {
+    "op" : "add",
+    "path" : "/neb_travelingslash",
+    "value" : "/items/active/weapons/melee/abilities/broadsword/travelingslash/neb_travelingslash.weaponability"
+  },
+  {
+    "op" : "add",
+    "path" : "/neb_bowshot",
+    "value" : "/items/active/weapons/bow/abilities/neb_bowshot.weaponability"
+  }
+]

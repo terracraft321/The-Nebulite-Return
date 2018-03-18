@@ -1,0 +1,26 @@
+{
+  "projectileName" : "neb_bullet2",
+  "physics" : "laser",
+  "bounces" : 0,
+  "damageKindImage" : "icon.png",
+  "image" : "neb_bullet.png",
+  "animationCycle" : 0.2,
+  "frameNumber" : 3,
+  "power" : 50,
+  "speed" : 100,
+  "timeToLive" : 5.0,
+  "supportsProcessing" : true,
+  "actionOnReap" : [{
+      "action" : "sound",
+      "options" : [ "/sfx/objects/essencechest_open1.ogg" ]
+    }
+  ],
+  
+  "damagePoly" : [ [-9, 0], [-6, -6], [0, -9], [6, -6], [9, 0], [6, 6], [0, 9], [-6, 6] ],
+  "lightColor" : [64, 0, 128],
+  "damageKind" : "neb_projectile",
+  "statusEffects" : [ ],
+
+  "scripts" : [ "neb_bullet.lua" ],
+  "baseHomingControlForce" : 100
+}

@@ -1,0 +1,34 @@
+[
+  //GARDEN
+  { "op": "add", "path": "/planetTypes/garden/layers/surface/dungeons/-", "value": [ 1.0, "neb_dungeon1" ] },
+  
+  //FOREST
+  { "op": "add", "path": "/planetTypes/forest/layers/surface/dungeons/-", "value": [ 1.0, "neb_dungeon1" ] },
+  
+  //DESERT
+  { "op": "add", "path": "/planetTypes/desert/layers/surface/dungeons/-", "value": [ 1.0, "neb_dungeon1" ] },
+  
+  //SAVANNAH
+  { "op": "add", "path": "/planetTypes/savannah/layers/surface/dungeons/-", "value": [ 1.0, "neb_dungeon1" ] },
+  
+  //SNOW
+  { "op": "add", "path": "/planetTypes/snow/layers/surface/dungeons/-", "value": [ 1.0, "neb_dungeon1" ] },
+  
+  //JUNGLE
+  { "op": "add", "path": "/planetTypes/jungle/layers/surface/dungeons/-", "value": [ 1.0, "neb_dungeon1" ] },
+  
+  //ALIEN
+  { "op": "add", "path": "/planetTypes/alien/layers/surface/dungeons/-", "value": [ 1.0, "neb_dungeon1" ] },
+  
+  //TUNDRA
+  { "op": "add", "path": "/planetTypes/tundra/layers/surface/dungeons/-", "value": [ 1.0, "neb_dungeon1" ] },
+  
+  //MIDNIGHT
+  { "op": "add", "path": "/planetTypes/midnight/layers/surface/dungeons/-", "value": [ 2.0, "neb_dungeon1" ] },
+  
+  //VOLCANIC
+  { "op": "add", "path": "/planetTypes/volcanic/layers/surface/dungeons/-", "value": [ 1.5, "neb_dungeon1" ] },
+  
+  //TENTACLE
+  { "op": "add", "path": "/planetTypes/tentacle/layers/surface/dungeons/-", "value": [ 2.0, "neb_dungeon1" ] }
+]

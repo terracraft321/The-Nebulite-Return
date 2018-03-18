@@ -1,0 +1,135 @@
+{
+  "itemName" : "rarequarterstaff",
+  "price" : 1080,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "A powerful weapon.",
+  "shortdescription" : "Rare Quarterstaff",
+  "tooltipKind" : "quarterstaff",
+  "category" : "quarterstaff",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","quarterstaff"],
+
+  "animation" : "quarterstaff.animation",
+  "animationParts" : { },
+  "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/neb_meleeweapon_generated.lua"],
+
+  "primaryAbilityType" : "neb_flurry",
+  "primaryAbility" : {
+    "fireTime" : [0.1, 0.2],
+    "baseDps" : [2, 4],
+    "scripts" : ["/items/active/weapons/melee/abilities/spear/flurry/neb_flurry.lua"],
+    "damageConfig" : {
+      "damageSourceKind" : "spear",
+      "statusEffects" : [ ],
+      "knockback" : 0,
+      "timeout" : 0.15,
+      "timeoutGroup" : "primary"
+    },
+    "cycleRotationOffsets" : [0, 3.5, -3.5],
+    "stances" : {
+	  "idle" : {
+	    "armRotation" : -90,
+	    "weaponRotation" : 0,
+	    "twoHanded" : false,
+	    "weaponOffset" : [0.0, 0.0],
+
+	    "allowRotate" : false,
+	    "allowFlip" : true
+	  },
+      "swing" : {
+        "duration" : 0.1,
+        "armRotation" : -15,
+        "weaponRotation" : -75,
+        "twoHanded" : true,
+        "weaponOffset" : [0.0, 0.0],
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  },
+
+  "builder" : "/items/buildscripts/neb_buildweapon.lua",
+  "builderConfig" : [{
+    "nameGenerator" : "quarterstaffnames.config:nameGen",
+    "elementalType" : [
+      "fire",
+      "ice",
+      "electric",
+      "poison"
+    ],
+    "elementalConfig" : {
+      "fire" : {
+        "primaryAbility" : { "damageConfig" : { "statusEffects" : [ "burning" ] } },
+        "animationCustom" : { "sounds" : {
+          "fire" : [ "/sfx/melee/swing_broadsword_fire1.ogg", "/sfx/melee/swing_broadsword_fire2.ogg", "/sfx/melee/swing_broadsword_fire3.ogg" ],
+          "fire2" : [ "/sfx/melee/swing_shortsword_fire1.ogg", "/sfx/melee/swing_shortsword_fire2.ogg", "/sfx/melee/swing_shortsword_fire3.ogg" ],
+          "fire3" : [ "/sfx/melee/swing_spear_fire1.ogg", "/sfx/melee/swing_spear_fire2.ogg", "/sfx/melee/swing_spear_fire3.ogg" ]
+        } }
+      },
+      "ice" : {
+        "primaryAbility" : { "damageConfig" : { "statusEffects" : [ "frostslow" ] } },
+        "animationCustom" : { "sounds" : {
+          "fire" : [ "/sfx/melee/swing_broadsword_ice1.ogg", "/sfx/melee/swing_broadsword_ice2.ogg", "/sfx/melee/swing_broadsword_ice3.ogg" ],
+          "fire2" : [ "/sfx/melee/swing_shortsword_ice1.ogg", "/sfx/melee/swing_shortsword_ice2.ogg", "/sfx/melee/swing_shortsword_ice3.ogg" ],
+          "fire3" : [ "/sfx/melee/swing_spear_ice1.ogg", "/sfx/melee/swing_spear_ice2.ogg", "/sfx/melee/swing_spear_ice3.ogg" ]
+        } }
+      },
+      "poison" : {
+        "primaryAbility" : { "damageConfig" : { "statusEffects" : [ "weakpoison" ] } },
+        "animationCustom" : { "sounds" : {
+          "fire" : [ "/sfx/melee/swing_broadsword_poison1.ogg", "/sfx/melee/swing_broadsword_poison2.ogg", "/sfx/melee/swing_broadsword_poison3.ogg" ],
+          "fire2" : [ "/sfx/melee/swing_shortsword_poison1.ogg", "/sfx/melee/swing_shortsword_poison2.ogg", "/sfx/melee/swing_shortsword_poison3.ogg" ],
+          "fire3" : [ "/sfx/melee/swing_spear_poison1.ogg", "/sfx/melee/swing_spear_poison2.ogg", "/sfx/melee/swing_spear_poison3.ogg" ]
+        } }
+      },
+      "electric" : {
+        "primaryAbility" : { "damageConfig" : { "statusEffects" : [ "electrified" ] } },
+        "animationCustom" : { "sounds" : {
+          "fire" : [ "/sfx/melee/swing_broadsword_electric1.ogg", "/sfx/melee/swing_broadsword_electric2.ogg", "/sfx/melee/swing_broadsword_electric3.ogg" ],
+          "fire2" : [ "/sfx/melee/swing_shortsword_electric1.ogg", "/sfx/melee/swing_shortsword_electric2.ogg", "/sfx/melee/swing_shortsword_electric3.ogg" ],
+          "fire3" : [ "/sfx/melee/swing_spear_electric1.ogg", "/sfx/melee/swing_spear_electric2.ogg", "/sfx/melee/swing_spear_electric3.ogg" ]
+        } }
+      }
+    },
+    "animationParts" : {
+      "blade" : {
+        "path" : "blade/<variant>.png",
+        "variants" : 10,
+        "paletteSwap" : true
+      },
+      "handle" : {
+        "path" : "handle/<variant>.png",
+        "variants" : 8,
+        "paletteSwap" : true
+      },
+      "ornament" : {
+        "path" : "ornament/<variant>.png",
+        "variants" : 18,
+        "paletteSwap" : true
+      }
+    },
+    "altAbilities" : [
+      "neb_spearspin",
+      "neb_fastspearspin",
+      "neb_spinslash",
+      "neb_traildash",
+      "neb_travelingslash",
+      "neb_javelin",
+      "neb_burstjump"
+    ],
+  
+    "bonusAbilities" : [
+      "neb_parry",
+      "neb_backstep",
+      "neb_vault",
+      "neb_propel"
+    ],
+    
+    "palette" : "/items/active/weapons/colors/quarterstaff.weaponcolors",
+    "iconDrawables" : [ "blade", "handle", "ornament" ]
+  }]
+}

@@ -1,0 +1,13 @@
+{
+  "projectileName" : "neb_fireburstexplosion",
+  "image" : "neb_fireburstexplosion.png",
+  "animationCycle" : 0.25,
+  "frameNumber" : 7,
+  "power" : 50,
+  "speed" : 0,
+  "damagePoly" : [ [-48, -32], [48, -32], [-48, 32], [48, 32] ],
+  "animationLoops" : false,
+  "piercing" : true,
+  "flippable" : true,
+  "damageKind" : "default"
+}

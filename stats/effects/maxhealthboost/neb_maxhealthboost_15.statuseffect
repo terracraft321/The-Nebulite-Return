@@ -1,0 +1,11 @@
+{
+  "name" : "neb_maxhealthboost_15",
+  "effectConfig" : {
+    "healthAmount" : -15
+  },
+  "defaultDuration" : 180,
+
+  "scripts" : [
+    "maxhealthboost.lua"
+  ]
+}

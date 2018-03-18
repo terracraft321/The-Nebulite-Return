@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "logblock", "count" : 10 },
+    { "item" : "goldbar", "count" : 1 }
+  ],
+  "output" : { "item" : "neb_redwoodornate", "count" : 10 },
+  "groups" : [ "neb_blockfilter", "neb_synthesizer" ]
+}

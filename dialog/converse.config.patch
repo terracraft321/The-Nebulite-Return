@@ -1,0 +1,119 @@
+[  
+  {  
+    "op":"add",
+    "path":"/converse/apex/nebulite",
+    "value":[  
+      "What ARE you?",
+      "Are you the Miniknog?",
+      "I feel like I should... follow you...",
+      "Are you some sort of leader?",
+      "I feel like I know you, but I don't know why.",
+      "My head hurts when I try to look at you...",
+      "You have a powerful aura, what exactly are you?",
+      "I feel like I should obey you.",
+      "Are you a god?",
+      "You remind me of those ancient ruins I saw...",
+      "I've never seen your kind before, but I feel like I have..."
+    ]
+  },
+  {  
+    "op":"add",
+    "path":"/converse/floran/nebulite",
+    "value":[  
+      "Head hurt...",
+      "Ssstone being seem like leader!",
+      "Floran hunt for you!",
+      "Ssstone beings have returned?",
+      "Ssstone beings have returned!",
+      "Floran remember you!",
+      "Floran will fight for you!",
+      "We keep planet sssafe for stone being's return!",
+      "Floran knew ssstone beings would come back for usss!",
+      "Where are other ssstone beingsss?",
+      "Ssstone beings come back for usss!",
+      "Nobody ssseem to remember ssstone beingsss, but Floran remember you.",
+      "Floran always ssstone being's ally."
+    ]
+  },
+  {  
+    "op":"add",
+    "path":"/converse/human/nebulite",
+    "value":[  
+      "What are you? Some sort of rock?",
+      "Agh... my head...",
+      "You roll around in mud or something?",
+      "Never seen your kind before.",
+      "Are you supposed to be dressed like that stone being thing the Florans always mention?",
+      "You remind me of those ruins.",
+      "Huh? You look familiar, but I'm sure I've never seen you before...",
+      "Our history books mention something that fits your description. What are you?",
+      "Get outta here, buddy.",
+      "Why does my head hurt when I look at you?",
+      "No... no that's impossible... They're just a myth..."
+    ]
+  },
+  {  
+    "op":"add",
+    "path":"/converse/glitch/nebulite",
+    "value":[  
+      "Disturbed. I feel like I'm malfunctioning when I look at you.",
+      "Intrigued. What manner of being are you?",
+      "Confused. I don't recall any mention of your race.",
+      "Curious. Where do you come from?",
+      "Cautious. You seem dangerous.",
+      "Frustrated. Why can't I figure you out?",
+      "Confused. My memory banks contain no knowledge of your kind.",
+      "Curious. What do your runes mean?"
+    ]
+  },
+  {  
+    "op":"add",
+    "path":"/converse/hylotl/nebulite",
+    "value":[  
+      "Do I know you?",
+      "Have I seen you before?",
+      "I don't think I've ever seen you around here before.",
+      "You seem familiar.",
+      "You make my head hurt...",
+      "Are- are you made of STONE?",
+      "Are those runes?",
+      "You look like that Nebulite thing from the story passed down in my family!",
+      "Er, hi?",
+      "You look weird.",
+      "Man, my head hurts..."
+    ]
+  },
+  {  
+    "op":"add",
+    "path":"/converse/avian/nebulite",
+    "value":[  
+      "You're no Avian...",
+      "Kluex?",
+      "You have a very omnipotent aura to you.",
+      "My head...",
+      "Wha- what are you?",
+      "Have we met?",
+      "Is that stone?",
+      "Are you made of rocks?",
+      "I've definitely never seen your kind before.",
+      "Are you a god?"
+    ]
+  },
+  {  
+    "op":"add",
+    "path":"/converse/novakid/nebulite",
+    "value":[  
+      "...",
+      "Did you make us?",
+      "You have a very omnipotent aura to you.",
+      "Have you any clue where novakid come from",
+      "What are you?",
+      "Have we met?",
+      "Is that stone?",
+      "Did you make me?",
+      "I've definitely never seen your kind before.",
+      "Are you a god?"
+    ]
+  }
+  
+]

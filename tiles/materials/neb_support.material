@@ -1,0 +1,22 @@
+{
+  "materialId" : 7868,
+  "materialName" : "neb_support",
+  "particleColor" : [110, 110, 110, 255],
+  "itemDrop" : "neb_support",
+  "description" : "A runed stone used as support in ancient Nebulite structures.",
+  "shortdescription" : "Nebulite Suport Stone",
+  "footstepSound" : "/sfx/blocks/footstep_stone.ogg",
+  "health" : 16,
+  "category": "materials",
+
+  "renderTemplate" : "/tiles/girdertemplate.config",
+  "renderParameters" : {
+    "texture" : "neb_support.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+	"radiantLight" : [49, 0, 118],
+    "zLevel" : 0
+  }
+}
