@@ -4,3 +4,5 @@ The Nebulites are a race of ancients. They were the creators and destroyers thou
 
 ALL CREDIT GOES TO : ZIMAZANG 
 Link to the original resource : https://community.playstarbound.com/resources/the-nebulites.3173 
+
+Steam Workshop ; http://steamcommunity.com/sharedfiles/filedetails/?id=1333429404
