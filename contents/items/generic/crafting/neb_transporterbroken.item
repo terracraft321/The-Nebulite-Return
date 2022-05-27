@@ -1,0 +1,9 @@
+{
+  "itemName" : "neb_transporterbroken",
+  "price" : 1000,
+  "rarity" : "Rare",
+  "category" : "Vehicle Component",
+  "inventoryIcon" : "neb_transporterbroken.png",
+  "description" : "A broken Transporter beacon. It needs an Insidia crystal to recharge it.",
+  "shortdescription" : "Broken Transporter"
+}

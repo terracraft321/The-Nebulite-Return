@@ -1,0 +1,9 @@
+{
+  "name" : "neb_raidboss1",
+  "category" : "neb_raidboss1",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "neb_raidboss1.png"
+  }
+}

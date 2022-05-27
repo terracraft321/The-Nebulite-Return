@@ -1,0 +1,24 @@
+{
+  "projectileName" : "neb_bullet1",
+  "physics" : "laser",
+  "bounces" : 0,
+  "damageKindImage" : "icon.png",
+  "image" : "neb_bullet.png",
+  "animationCycle" : 0.2,
+  "frameNumber" : 3,
+  "power" : 50,
+  "speed" : 15,
+  "timeToLive" : 1.6,
+  "supportsProcessing" : true,
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "neb_bullet2",
+      "inheritDamageFactor" : 0.5,
+      "angle" : 5
+    }
+  ],
+  "lightColor" : [64, 0, 128],
+  "damageKind" : "neb_projectile",
+  "statusEffects" : []
+}

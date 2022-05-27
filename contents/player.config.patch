@@ -1,0 +1,82 @@
+[
+  {
+    "op":"add",
+    "path":"/species/-",
+    "value":"nebulite"
+  },
+  {
+    "op": "add",
+    "path": "/defaultCodexes/nebulite",
+    "value": [ "protectorate1", "protectorate2", "nebuliteescape", "nebuliteorigins", "nebuliteprologue"]
+  },
+  {
+    "op" : "add",
+    "path" : "/defaultBlueprints/tier1/-",
+    "value" : { "item" : "neb_transporter" }
+  },
+  {
+    "op" : "add",
+    "path" : "/defaultBlueprints/tier1/-",
+    "value" : { "item" : "neb_anvil" }
+  },
+  {
+    "op" : "add",
+	"path" : "/defaultBlueprints/tier1/-",
+	"value" : { "item" : "creatoroflife" }
+  },
+  {
+    "op": "add",
+    "path" : "/defaultBlueprints/tier1/-",
+    "value": { "item" : "neb_god" }
+  },
+  {
+    "op": "add",
+    "path" : "/defaultBlueprints/tier1/-",
+    "value": { "item" : "neb_godchest" }
+  },
+  {
+    "op": "add",
+    "path" : "/defaultBlueprints/tier1/-",
+    "value": { "item" : "neb_creatorlegs" }
+  },
+  {
+    "op": "add",
+    "path" : "/defaultBlueprints/tier1/-",
+    "value": { "item" : "neb_godsword" }
+  },
+  {
+    "op": "add",
+    "path" : "/defaultBlueprints/tier1/-",
+    "value": { "item" : "nebuliterifle" }
+  },
+  {
+    "op": "add",
+    "path" : "/defaultBlueprints/tier1/-",
+    "value": { "item" : "nebuliteshotgun" }
+  },
+  {
+    "op": "add",
+    "path" : "/defaultBlueprints/tier1/-",
+    "value": { "item" : "nebuliteburst" }
+  },   
+  {
+    "op": "add",
+    "path" : "/defaultBlueprints/tier1/-",
+    "value": { "item" : "neb_godlegs" }
+  },
+  {
+    "op": "add",
+    "path" : "/defaultBlueprints/tier1/-",
+    "value": { "item" : "neb_bowfull2" }
+  },
+  {
+    "op" : "add",
+    "path" : "/defaultBlueprints/tier1/-",
+    "value" : { "item" : "forgedheart" }
+  },
+  {
+    "op" : "add",
+    "path" : "/defaultBlueprints/tier1/-",
+    "value" : { "item" : "darkmatter7" }
+  }
+]

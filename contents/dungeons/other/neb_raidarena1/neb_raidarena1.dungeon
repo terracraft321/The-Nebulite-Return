@@ -1,0 +1,131 @@
+{
+  "metadata" : {
+    "name" : "neb_raidarena1",
+    "species" : "generic",
+    "rules" : [
+    ],
+    "anchor" : [ "neb_raidarena1" ],
+    "gravity" : 80,
+    "maxRadius" : 1000,
+    "maxParts" : 100,
+    "protected" : true
+  },
+  "tiles" : [
+    //SPECIAL
+    {
+      "value" : [192, 58, 255, 255],
+      "comment" : "Player Spawn",
+      "brush" : [ [ "playerstart" ] ]
+    },
+    
+    //BLOCKS
+    {
+      "value" : [255, 0, 220, 255],
+      "comment" : "magic pinkppp, a no-op value"
+    },
+    {
+      "value" : [184, 87, 217, 255],
+      "comment" : "Biome tile brush",
+      "rules" : [ [ "allowOverdrawing" ] ],
+      "brush" : [ [ "surface" ] ]
+    },
+    {
+      "value" : [32, 32, 32, 255],
+      "comment" : "Empty hole",
+      "brush" : [ [ "clear" ] ]
+    },
+    {
+      "value" : [100, 80, 0, 255],
+      "comment" : "Ancient block foundation",
+      "brush" : [ [ "clear" ], [ "front", "ancientblock" ], [ "back", "ancientblock" ] ]
+    },
+    {
+      "value" : [79, 63, 0, 255],
+      "comment" : "Ancient brick foundation",
+      "brush" : [ [ "clear" ], [ "front", "ancientbrick" ], [ "back", "ancientbrick" ] ]
+    },
+    {
+      "value" : [71, 33, 0, 255],
+      "comment" : "Meteorite wall",
+      "brush" : [ [ "clear" ], [ "front", "meteoriterock" ], [ "back", "meteoriterock" ] ]
+    },
+    {
+      "value" : [47, 22, 0, 255],
+      "comment" : "Ornate backwall",
+      "brush" : [ [ "clear" ], [ "back", "neb_ornateblock" ] ]
+    },
+    {
+      "value" : [47, 65, 5, 255],
+      "comment" : "Grass surface",
+      "brush" : [ [ "clear" ], [ "front", "grassy" ], [ "back", "grassy" ] ]
+    },
+    {
+      "value" : [255, 245, 125, 255],
+      "comment" : "Invisible block",
+      "brush" : [ [ "clear" ], [ "front", "metamaterial:boundary" ] ]
+    },
+    
+    //OBJECTS
+    {
+      "value" : [206, 190, 0, 255],
+      "comment" : "Foreground pillar right",
+      "brush" : [ [ "clear" ], [ "object", "neb_templepillar", { "direction" : "right" } ] ]
+    },
+    {
+      "value" : [111, 102, 0, 255],
+      "comment" : "Background pillar right",
+      "brush" : [ [ "clear" ], [ "object", "neb_templepillar_bg", { "direction" : "right" } ] ]
+    },
+    {
+      "value" : [199, 103, 7, 255],
+      "comment" : "Foreground pillar left",
+      "brush" : [ [ "clear" ], [ "object", "neb_templepillar", { "direction" : "left" } ] ]
+    },
+    {
+      "value" : [104, 48, 6, 255],
+      "comment" : "Background pillar left",
+      "brush" : [ [ "clear" ], [ "object", "neb_templepillar_bg", { "direction" : "left" } ] ]
+    },
+    {
+      "value" : [191, 64, 0, 255],
+      "comment" : "Warp gate",
+      "brush" : [ [ "clear" ], [ "object", "ancientgate", { "direction" : "right" } ] ]
+    },
+    {
+      "value" : [163, 0, 240, 255],
+      "comment" : "Broken door",
+      "brush" : [ [ "clear" ], [ "object", "neb_shipdoorBroken", { "direction" : "right" } ] ]
+    },
+    {
+      "value" : [131, 0, 193, 255],
+      "comment" : "Broken door 2",
+      "brush" : [ [ "clear" ], [ "back", "neb_ornateblock" ], [ "object", "neb_shipdoorBroken", { "direction" : "right" } ] ]
+    },
+    
+    //NPCS
+    {
+      "value" : [45, 119, 9, 255],
+      "comment" : "boss",
+      "brush" : [ [ "npc",
+          {
+            "kind" : "monster",
+            "typeName" : "neb_raidboss1",
+            "parameters" : {
+              "aggressive" : true,
+              "level" : 1
+            }
+          }
+        ] ]
+    }
+  ],
+
+  "parts" : [
+    {
+      "name" : "neb_raidarena1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "image", [ "neb_raidarena1.png" ] ]
+    }
+  ]
+}

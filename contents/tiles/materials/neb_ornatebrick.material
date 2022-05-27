@@ -1,0 +1,21 @@
+{
+  "materialId" : 7870,
+  "materialName" : "neb_ornatebrick",
+  "particleColor" : [71, 66, 57, 255],
+  "itemDrop" : "neb_ornatebrick",
+  "description" : "An ornate stone used to line the walls of grand Nebulite temples.",
+  "shortdescription" : "Pure Tempest Bricks",
+  "footstepSound" : "/sfx/blocks/footstep_stone.ogg",
+  "health" : 8,
+  "category": "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "neb_ornatebrick.png",
+    "variants" : 4,
+    "lightTransparent" : false,
+    "multiColored" : true,
+    "occludesBelow" : true,
+    "zLevel" : 480
+  }
+}

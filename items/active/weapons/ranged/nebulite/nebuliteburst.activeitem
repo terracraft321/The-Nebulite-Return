@@ -1,0 +1,85 @@
+{
+  "itemName" : "nebuliteburst",
+  "price" : 2550,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "A fully calibrated burst fire killing machine.",
+  "shortdescription" : "StutterKill",
+  "tooltipKind" : "gun",
+  "category" : "assaultRifle",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","ranged","assaultrifle"],
+  "level" : 5,
+
+  "inventoryIcon" : "nebuliteburst.png",
+
+  "animation" : "/items/active/weapons/ranged/gun.animation",
+  "animationParts" : {
+    "butt" : "",
+    "middle" : "nebuliteburst.png",
+    "barrel" : "",
+    "muzzleFlash" : "/items/active/weapons/ranged/neb_muzzleflash.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : ["/sfx/gun/neb_blast.ogg"]
+    }
+  },
+
+  "baseOffset" : [1, 0.16],
+  "muzzleOffset" : [3.9, 0.2],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "dark",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+
+    "fireTime" : 0.51,
+    "baseDps" : 17.5,
+    "energyUsage" : 21.5,
+    "inaccuracy" : 0.02,
+
+    "projectileCount" : 3,
+    "fireType" : "auto",
+
+    "projectileType" : "neb_bullet1",
+    "projectileParameters" : {
+      "knockback" : 5
+    },
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 3,
+        "weaponRotation" : 3,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "cooldown" : {
+        "duration" : 0.11,
+        "armRotation" : 3,
+        "weaponRotation" : 3,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  },
+
+  "altAbilityType" : "grenadelauncher",
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

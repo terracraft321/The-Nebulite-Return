@@ -1,0 +1,9 @@
+{
+  "particleEmitters" : {
+    "icetrail" : {
+      "enabled" : false,
+      "emissionRate" : 0.0,
+      "particles" : [ ]
+    }
+  }
+}

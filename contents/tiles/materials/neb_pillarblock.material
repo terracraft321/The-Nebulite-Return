@@ -1,0 +1,24 @@
+{
+  "materialId" : 7867,
+  "materialName" : "neb_pillarblock",
+  "particleColor" : [89, 89, 89, 255],
+  "itemDrop" : "neb_pillarblock",
+  "shortdescription" : "Nebulite Pillar Block",
+  "description" : "A pillar style wall.",
+  "glitchDescription" : "Statement. A pillar wall.",
+  "floranDescription" : "Wall too pretty to sssmash.",
+  "footstepSound" : "/sfx/blocks/footstep_stone3.ogg",
+  "drawBackground" : true,
+  "health" : 12,
+  "category": "materials",
+
+  "renderTemplate" : "/tiles/columntemplate.config",
+  "renderParameters" : {
+    "texture" : "neb_pillarblock.png",
+    "variants" : 10,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 2770
+  }
+}

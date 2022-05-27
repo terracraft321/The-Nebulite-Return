@@ -1,0 +1,66 @@
+{
+  "objectName" : "neb_brokenancientpillar",
+  "colonyTags" : ["ancient","light"],
+  "rarity" : "Legendary",
+  "category" : "light",
+  "price" : 0,
+  "printable" : false,
+
+  "description" : "An ancient pillar found near the gates. It produces light.",
+  "shortdescription" : "Broken Ancient Pillar",
+  "race" : "ancient",
+
+  "apexDescription" : "An ancient glowing pillar. I am in awe.",
+  "avianDescription" : "A glowing monolith. The universe is wonderful.",
+  "floranDescription" : "Shiny rock! Floran is reminded of a setting sun.",
+  "glitchDescription" : "Perceptive. This ethereal glow is produced by a substance I do not recognise.",
+  "humanDescription" : "It's like an ancient lamppost!",
+  "hylotlDescription" : "This towering pillar must have seen a lot of history.",
+  "novakidDescription" : "This glowin' stone reminds me of a distant moon.",
+
+  "statusEffects" : [ ],
+
+  "lightColor" : [179, 161, 125],
+
+  "flickerPeriod" : 0.05,
+  "flickerMinIntensity" : 0.25,
+  "flickerMaxIntensity" : 0.75,
+  "flickerPeriodVariance" : 0.8,
+  "flickerIntensityVariance" : 0.25,
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "neb_brokenancientpillar1.png:<color>.<frame>",
+      "flipImages" : true,
+      "imagePosition" : [-8, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "left",
+      "lightPosition" : [0, 4]
+    },
+    {
+      "image" : "neb_brokenancientpillar1.png:<color>.<frame>",
+      "imagePosition" : [-8, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "right",
+      "lightPosition" : [0, 4]
+    }
+  ],
+
+  "animation" : "neb_brokenancientpillar.animation",
+  "animationParts" : {
+    "bg" : "neb_brokenancientpillar1.png",
+    "fg" : "neb_brokenancientpillar2.png"
+  },
+  "animationPosition" : [-8, 0],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "interactive" : false,
+
+  "inputNodes" : [ [0, 0] ]
+
+}

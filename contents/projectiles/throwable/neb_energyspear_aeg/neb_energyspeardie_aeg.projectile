@@ -1,0 +1,14 @@
+{
+  "projectileName" : "neb_energyspeardie_aeg",
+  "physics" : "arrow",
+  "image" : "neb_energyspeardie_aeg.png",
+  "animationCycle" : 0.1,
+  "animationLoops" : false,
+  "frameNumber" : 7,
+  "damageKind" : "plasma",
+  "piercing" : true,
+  "fullbright" : true,
+  "damagePoly" : [ [-40, -9], [40, -9], [40, 9], [-40, 9] ],
+  "lightColor" : [0, 128, 0],
+  "pointLight" : false
+}

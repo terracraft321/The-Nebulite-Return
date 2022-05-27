@@ -1,0 +1,9 @@
+{
+  "itemName" : "neb_ornatebrick",
+  "rarity" : "Rare",
+  "inventoryIcon" : "neb_ornatebrick.png",
+  "description" : "An ornate stone used to line the walls of grand Nebulite temples.",
+  "shortdescription" : "Pure Tempest Bricks",
+
+  "materialId" : 7870
+}

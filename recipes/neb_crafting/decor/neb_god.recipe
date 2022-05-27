@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "densiniumbar", "count" : 5 },
+    { "item" : "leather", "count" : 10 }
+  ],
+  "output" : { "item" : "neb_god", "count" : 1 },
+  "groups" : [ "neb_decorfilter", "neb_synthesizer", "armour", "all", "mod" ]
+}

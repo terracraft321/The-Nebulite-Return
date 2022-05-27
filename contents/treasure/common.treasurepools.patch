@@ -1,0 +1,32 @@
+[
+  {
+    "op" : "add",
+    "path" : "/commonMelee/0/1/pool/-",
+    "value" : { "weight": 1, "item": "commonquarterstaff" }
+  },
+  {
+    "op" : "add",
+    "path" : "/rareMelee/0/1/pool/-",
+    "value" : { "weight": 0.001, "item": "neb_godsword" }
+  },
+  {
+    "op" : "add",
+    "path" : "/rareGun/0/1/pool/-",
+    "value" : { "weight": 0.009, "item": "nebuliterifle2" }
+  },
+  {
+    "op" : "add",
+    "path" : "/rareGun/0/1/pool/-",
+    "value" : { "weight": 0.001, "item": "nebulitesniper" }
+  },
+  {
+    "op": "add",
+    "path": "/basicTreasure/0/1/pool/-",
+    "value": { "weight": 0.05, "item": "insidia" }
+    },
+  {
+    "op" : "add",
+    "path" : "/uncommonMelee/0/1/pool/-",
+    "value" : { "weight": 0.007, "item": "uncommonquarterstaff" }
+  }
+]

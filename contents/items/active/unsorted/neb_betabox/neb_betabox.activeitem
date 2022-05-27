@@ -1,0 +1,24 @@
+{
+  "itemName" : "neb_betabox",
+  "price" : 0,
+  "level" : 1,
+  "maxStack" : 100,
+  "rarity" : "Common",
+  "category" : "mysteriousReward",
+  "description" : "For testing purposes. Contains a random common level 1 quarterstaff.",
+  "shortdescription" : "Beta Box: Common Quarterstaff",
+  "twoHanded" : true,
+
+  "inventoryIcon" : "neb_betabox.png",
+  "animation" : "neb_betabox.animation",
+  "animationCustom" : {},
+  "scripts" : ["neb_betabox.lua"],
+
+  "fireTime" : 2.0,
+  "fireOffset" : [1.0, 0.0],
+
+  "treasure" : {
+    "pool" : "commonquarterstaff",
+    "level" : 1
+  }
+}

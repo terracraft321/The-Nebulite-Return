@@ -1,0 +1,9 @@
+{
+  "itemName" : "neb_redwood",
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "neb_redwood.png",
+  "description" : "A beautiful redwood beam.",
+  "shortdescription" : "Ancient Redwood Beam",
+
+  "materialId" : 7873
+}

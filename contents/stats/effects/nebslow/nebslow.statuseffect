@@ -1,0 +1,12 @@
+{
+  "name" : "nebslow",
+
+  "effectConfig" : {},
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "nebslow.lua"
+  ],
+
+  "animationConfig" : "nebslow.animation"
+}

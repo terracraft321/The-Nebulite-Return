@@ -1,0 +1,26 @@
+{
+  "projectileName" : "neb_arrow",
+  "physics" : "arrow",
+  "actionOnCollide" : [
+    {
+      "action" : "sound",
+      "options" : [
+        "/sfx/projectiles/electric_barrier_shock1.ogg"
+      ]
+    }
+  ],
+  "image" : "neb_arrow.png",
+  "animationCycle" : 0.25,
+  "frameNumber" : 1,
+  "fullbright" : true,
+  "damageKindImage" : "icon.png",
+  "power" : 20,
+  "knockback" : 10,
+  "knockbackDirectional" : true,
+  "damageKind" : "plasma",
+  "timeToLive" : 10,
+  "damagePoly" : [ [8, -0.2], [8.5, -0.2], [8.5, 0.2], [8, 0.2] ],
+  "lightColor" : [32, 0, 64],
+  "pointLight" : false,
+  "persistentAudio" : "/sfx/projectiles/forcecage_loop.ogg"
+}

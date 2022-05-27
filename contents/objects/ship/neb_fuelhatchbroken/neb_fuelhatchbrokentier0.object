@@ -1,0 +1,35 @@
+{
+  "objectName" : "neb_fuelhatchbrokenTier0",
+  "tags" : ["nebulite"],
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "A broken fuel hatch. This won't do!",
+  "shortdescription" : "Broken Fuel Hatch",
+  "race" : "nebulite",
+  "lightColor" : [46, 66, 77],
+
+  "apexDescription" : "Converts fuel into freedom.",
+  "avianDescription" : "Let's load it up and take to the stars!",
+  "floranDescription" : "Let'ss get going!",
+  "glitchDescription" : "Excited. Once filled, we may visit another planet.",
+  "humanDescription" : "A fuel panel. We can fill this up and explore.",
+  "hylotlDescription" : "Fuel is the lifeblood of exploration.",
+
+  "inventoryIcon" : "neb_fuelhatchbrokenicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "neb_fuelhatchbrokenTier0.png:<color>.<frame>", "fullbright" : true }, { "image" : "neb_fuelhatchbrokenlitTier0.png:<color>.<frame>" } ],
+
+      "imagePosition" : [-8, -16],
+      "frames" : 12,
+      "animationCycle" : 1,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+  
+  "soundEffect" : "/sfx/objects/brokenfuelhatch.ogg",
+  "soundEffectRadius" : 15
+  
+}

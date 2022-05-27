@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "nuclearcore", "count" : 10 },
+    { "item" : "solariumstar", "count" : 20 }
+  ],
+  "output" : { "item" : "creatoroflife", "count" : 1 },
+  "groups" : [ "neb_decorfilter", "neb_synthesizer", "armour", "all", "mod" ]
+}

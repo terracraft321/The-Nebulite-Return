@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "cobblestonematerial", "count" : 50 }
+  ],
+  "output" : { "item" : "ancientverticaldoor", "count" : 1 },
+  "groups" : [ "neb_decorfilter", "neb_synthesizer" ]
+}

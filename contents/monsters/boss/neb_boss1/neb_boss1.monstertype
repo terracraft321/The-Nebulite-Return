@@ -1,0 +1,267 @@
+{
+  "type" : "neb_boss1",
+  "shortdescription" : "Corrupted Huntsman",
+
+  "categories" : [ "neb_boss1" ],
+  "parts" : [ "body" ],
+
+  "animation" : "neb_boss1.animation",
+
+  "dropPools" : [ { "default" : "neb_boss1_rewards", "bow" : "neb_boss1_rewards" } ],
+
+  "baseParameters" : {
+    "scripts" : [
+      "/monsters/boss/neb_boss1/neb_boss1.lua"
+    ],
+
+    "behavior" : "monster",
+    
+    "behaviorConfig" : {
+      "damageOnTouch" : false,
+
+      "targetQueryRange" : 40,
+      "targetOnDamage" : true,
+      "keepTargetInSight" : true,
+      "keepTargetInRange" : 1000,
+      "targetOutOfSightTime" : 2.5,
+      "hurtTime": 0.0,
+      "hurtWaitForGround": false,
+      "hurtWaitForGroundTime": 0.1,
+
+      "foundTargetActions" : [
+        {
+          "name" : "action-animate",
+          "cooldown" : 15,
+          "parameters" : {
+            "stateType" : "body",
+            "state" : "start",
+            "animationTime" : 3.0
+          }
+        }
+      ],
+
+      "fleeActions" : [],
+
+      "hostileActions" : [
+        {
+          "name" : "action-animate",
+          "cooldown" : 15,
+          "parameters" : {
+            "stateType" : "body",
+            "state" : "roar",
+            "animationTime" : 0.53
+          }
+        },
+        {
+          "name" : "action-charge",
+          "cooldown" : 4.5,
+          "parameters" : {
+            "maximumRange" : 3,
+            "onGround" : true,
+            "windupState" : "chargewindup",
+            "windupTime" : 0.5,
+
+            "chargeTime" : 0.2,
+            "chargeSpeed" : 30,
+            "chargeControlForce" : 1000,
+            "chargeState" : "charge",
+            "wallCrashSound" : "",
+            "wallCrashEmitter" : "",
+
+            "winddownTime" : 0.2,
+            "winddownStopForce" : 1000,
+            "winddownState" : "chargewinddown"
+          }
+        },
+        {
+          "name" : "action-fire",
+          "cooldown" : 2.0,
+          "parameters" : {
+            "requireLineOfSight" : true,
+            "maximumRange" : 12,
+            "minimumRange" : 4,
+            "onGround" : true,
+            "windupState" : "firewindup",
+            "windupTime" : 0.5,
+
+            "fireSound" : "fire",
+            "fireState" : "fire",
+            "fireDelay" : 0.1,
+            "projectileType" : "neb_darktravelingswoosh",
+            "power" : 2,
+            "aimAtTarget" : true,
+            "fireOffset" : [0.5, 0.75],
+            "projectileCount" : 1,
+            "inaccuracy" : 0.05,
+
+            "winddownState" : "firewinddown",
+            "winddownStopForce" : 1000,
+            "winddownTime" : 0.2
+          }
+        }
+      ],
+
+      "periodicActions" : [],
+
+      "approachActions" : [
+        {
+          "name" : "approach-teleport",
+          "parameters" : {
+          }
+        },
+        {
+          "name" : "approach-walk",
+          "parameters" : {
+            "canJump" : true,
+            "maxJumps" : 5,
+            "jumpXVelocity" : 24,
+            "jumpYVelocity" : 40,
+            "jumpXControlForce" : 50,
+            "minXRange" : 20
+          }
+        }
+      ],
+
+      "wanderActions" : [
+        {
+          "name" : "wander-walk",
+          "cooldown" : 6.0,
+          "parameters" : {
+            "wanderTime" : [1, 3]
+          }
+        }
+      ]
+    },
+
+    "damageParts" : {
+      "body" : {
+        "damage" : 3,
+
+        "teamType" : "enemy",
+        "damageSourceKind" : "slash",
+        "knockback" : 20,
+        "statusEffects" : [ ]
+      }
+    },
+
+    "touchDamage" : {
+      "poly" : [ [1.75, 2.55], [2.25, 2.05],  [2.75, -3.55], [2.25, -3.95],  [-2.25, -3.95], [-2.75, -3.55],  [-2.25, 2.05], [-1.75, 2.55] ],
+      "damage" : 3,
+
+      "teamType" : "enemy",
+      "damageSourceKind" : "slash",
+      "knockback" : 50,
+      "statusEffects" : [ ]
+    },
+
+    "metaBoundBox" : [-4, -4, 4, 4],
+    "scale" : 1.0,
+
+    "movementSettings" : {
+      "collisionPoly" : [ [1.75, 2.55], [2.25, 2.05],  [2.75, -3.55], [2.25, -3.95],  [-2.25, -3.95], [-2.75, -3.55],  [-2.25, 2.05], [-1.75, 2.55] ],
+
+      "mass" : 0.5,
+      "walkSpeed" : 13,
+      "runSpeed" : 20,
+
+      "airFriction" : 0,
+
+      "airJumpProfile" : {
+        "jumpSpeed" : 75.0,
+        "jumpInitialPercentage" : 7.0,
+        "jumpHoldTime" : 0.5
+      }
+    },
+
+    "bodyMaterialKind" : "organic",
+
+    "knockoutTime" : 0.3,
+    "knockoutAnimationStates" : {
+      "damage" : "stunned"
+    },
+    "deathParticles" : "deathPoof",
+    "knockoutEffect" : "",
+
+    "statusSettings" : {
+      "statusProperties" : {
+        "targetMaterialKind" : "organic"
+      },
+
+      "appliesEnvironmentStatusEffects" : false,
+      "appliesWeatherStatusEffects" : false,
+      "minimumLiquidStatusEffectPercentage" : 0.1,
+
+      "primaryScriptSources" : [
+        "/stats/monster_primary.lua"
+      ],
+      "primaryScriptDelta" : 5,
+
+      "stats" : {
+        "knockbackStunTime" : {
+          "baseValue" : 0.25
+        },
+        "knockbackThreshold" : {
+          "baseValue" : 100
+        },
+        "maxHealth" : {
+          "baseValue" : 200
+        },
+        "protection" : {
+          "baseValue" : 0.0
+        },
+        "healthRegen" : {
+          "baseValue" : 0.0
+        },
+        "powerMultiplier" : {
+          "baseValue" : 1.0
+        },
+        "physicalResistance" : {
+          "baseValue" : 0.5
+        },
+        "fireResistance" : {
+          "baseValue" : 0.5
+        },
+        "fireStatusImmunity" : {
+          "baseValue" : 0.5
+        },
+        "iceResistance" : {
+          "baseValue" : 0.5
+        },
+        "iceStatusImmunity" : {
+          "baseValue" : 0.5
+        },
+        "electricResistance" : {
+          "baseValue" : 0.5
+        },
+        "electricStatusImmunity" : {
+          "baseValue" : 0.5
+        },
+        "poisonResistance" : {
+          "baseValue" : 0.5
+        },
+        "poisonStatusImmunity" : {
+          "baseValue" : 0.5
+        }
+      },
+
+      "resources" : {
+        "stunned" : {
+          "deltaValue" : -1.0,
+          "initialValue" : 0.0
+        },
+        "health" : {
+          "maxStat" : "maxHealth",
+          "deltaStat" : "healthRegen",
+          "defaultPercentage" : 100
+        }
+      }
+    },
+
+    "mouthOffset" : [0, 0],
+    "feetOffset" : [0, -8],
+    "capturable" : false,
+    "captureHealthFraction" : 0.5,
+    "nametagColor" : [64, 200, 255],
+    "captureCollectables" : { "monsters" : "adultpoptop" }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "cobblestonematerial", "count" : 50 }
+  ],
+  "output" : { "item" : "neb_shipdoor", "count" : 1 },
+  "groups" : [ "neb_decorfilter", "neb_synthesizer" ]
+}

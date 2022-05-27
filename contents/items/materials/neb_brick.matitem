@@ -1,0 +1,12 @@
+{
+  "itemName" : "neb_brick",
+  "rarity" : "Common",
+  "inventoryIcon" : "neb_brick.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "shortdescription" : "Nebulite Bricks",
+  "description" : "These bricks have certainly survived the test of time.",
+  "glitchdescription" : "An ancient brick.",
+  "florandescription" : "Ancient bricksss.",
+
+  "materialId" : 7865
+}

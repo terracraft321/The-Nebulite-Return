@@ -1,0 +1,92 @@
+{
+  "itemName" : "commonquarterstaff",
+  "price" : 900,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "A powerful weapon.",
+  "shortdescription" : "Common Quarterstaff",
+  "tooltipKind" : "quarterstaff",
+  "category" : "quarterstaff",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","quarterstaff"],
+
+  "animation" : "quarterstaff.animation",
+  "animationParts" : { },
+  "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/neb_meleeweapon_generated.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "neb_flurry",
+  "primaryAbility" : {
+    "fireTime" : [0.3, 0.4],
+    "baseDps" : [0.5, 2],
+    "scripts" : ["/items/active/weapons/melee/abilities/spear/flurry/neb_flurry.lua"],
+    "damageConfig" : {
+      "damageSourceKind" : "spear",
+      "statusEffects" : [ ],
+      "knockback" : 0.15,
+	  "knockbackRange" : [25, 35],
+      "timeout" : 0.15,
+      "timeoutGroup" : "primary"
+    },
+    "cycleRotationOffsets" : [0, 3.5, -3.5],
+    "stances" : {
+	  "idle" : {
+	    "armRotation" : -90,
+	    "weaponRotation" : 0,
+	    "twoHanded" : false,
+	    "weaponOffset" : [0.0, 0.0],
+
+	    "allowRotate" : false,
+	    "allowFlip" : true
+	  },
+      "swing" : {
+        "duration" : 0.1,
+        "armRotation" : -15,
+        "weaponRotation" : -75,
+        "twoHanded" : true,
+        "weaponOffset" : [0.0, 0.0],
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  },
+
+  "builder" : "/items/buildscripts/neb_buildweapon.lua",
+  "builderConfig" : [{
+    "nameGenerator" : "quarterstaffnames.config:nameGen",
+    "animationParts" : {
+      "blade" : {
+        "path" : "blade/<variant>.png",
+        "variants" : 10,
+        "paletteSwap" : true
+      },
+      "handle" : {
+        "path" : "handle/<variant>.png",
+        "variants" : 8,
+        "paletteSwap" : true
+      },
+      "ornament" : {
+        "path" : "ornament/<variant>.png",
+        "variants" : 18,
+        "paletteSwap" : true
+      }
+    },
+    "altAbilities" : [
+      "neb_spearspin"
+    ],
+  
+    "bonusAbilities" : [
+      "neb_parry",
+      "neb_backstep",
+      "neb_vault",
+      "neb_propel"
+    ],
+    
+    "palette" : "/items/active/weapons/colors/quarterstaff.weaponcolors",
+    "iconDrawables" : [ "blade", "handle", "ornament" ]
+  }]
+}

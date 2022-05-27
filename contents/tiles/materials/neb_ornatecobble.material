@@ -1,0 +1,21 @@
+{
+  "materialId" : 7872,
+  "materialName" : "neb_ornatecobble",
+  "particleColor" : [71, 66, 57, 255],
+  "itemDrop" : "neb_ornatecobble",
+  "description" : "A decorative cobble made from crushed pure tempest stone.",
+  "shortdescription" : "Pure Tempest Cobblestone",
+  "footstepSound" : "/sfx/blocks/footstep_stone.ogg",
+  "health" : 8,
+  "category": "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "neb_ornatecobble.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "multiColored" : true,
+    "occludesBelow" : true,
+    "zLevel" : 400
+  }
+}

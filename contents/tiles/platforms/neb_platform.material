@@ -1,0 +1,24 @@
+{
+  "materialId" : 7866,
+  "materialName" : "neb_platform",
+  "collisionKind" : "platform",
+  "itemDrop" : "neb_platform",
+  "shortdescription" : "Nebulite Platform",
+  "description" : "Ancient platform... It's some kind of stone tech.",
+  "glitchDescription" : "Confused. There is technology at work in this ancient platform I do not understand.",
+  "floranDescription" : "Platform made with sstrange technology.",
+  "novakidDescription" : "Some strange lookin' tech in this platform.",
+  "footstepSound" : "/sfx/blocks/footstep_stone2.ogg",
+  "category": "supports",
+
+  "renderTemplate" : "/tiles/platformtemplate.config",
+  "renderParameters" : {
+    "texture" : "neb_platform.png",
+    "variants" : 3,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : true,
+    "zLevel" : 0,
+    "platform" : true
+  }
+}

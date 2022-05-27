@@ -1,0 +1,85 @@
+{
+  "itemName" : "nebuliterifle2",
+  "price" : 9000,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "I didn't kill those people... this gun did!!!GASP",
+  "shortdescription" : "Life Taker",
+  "tooltipKind" : "gun",
+  "category" : "assaultRifle",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","ranged","assaultrifle"],
+  "level" : 6,
+
+  "inventoryIcon" : "nebuliterifle2.png",
+
+  "animation" : "/items/active/weapons/ranged/gun.animation",
+  "animationParts" : {
+    "butt" : "",
+    "middle" : "nebuliterifle2.png",
+    "barrel" : "",
+    "muzzleFlash" : "/items/active/weapons/ranged/neb_muzzleflash.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : ["/sfx/gun/neb_blast.ogg"]
+    }
+  },
+
+  "baseOffset" : [0.6, 0.15],
+  "muzzleOffset" : [2.2, 0.125],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "dark",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+
+    "fireTime" : 0.05,
+    "baseDps" : 9.5,
+    "energyUsage" : 16.5,
+    "inaccuracy" : 0.09,
+
+    "projectileCount" : 1,
+    "fireType" : "auto",
+
+    "projectileType" : "neb_bullet2",
+    "projectileParameters" : {
+      "knockback" : 5
+    },
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 3,
+        "weaponRotation" : 3,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "cooldown" : {
+        "duration" : 0.11,
+        "armRotation" : 3,
+        "weaponRotation" : 3,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  },
+
+  "altAbilityType" : "spray",
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

@@ -1,0 +1,53 @@
+{
+  "itemName" : "neb_bowfull2",
+  "price" : 50,
+  "inventoryIcon" : "bowicon.png",
+  "maxStack" : 1,
+  "rarity" : "uncommon",
+  "tooltipKind" : "bow",
+  "category" : "bow",
+  "description" : "While not as popular, Nebulites also had ranged alternatives.",
+  "shortdescription" : "Master's Energy Bow",
+  "twoHanded" : true,
+  "itemTags" : ["weapon", "ranged", "bow"],
+
+  "level" : 5,
+
+  "animation" : "/items/active/weapons/bow/neb_bow.animation",
+  "animationParts" : {
+    "bow" : "neb_bowfull2.png",
+    "bowlit" : "neb_bowfull_lit2.png"
+  },
+  "animationCustom" : {
+    "animatedParts" : { "parts" : { "bow" : { "properties" : {
+      "offset" : [0.25, 0]
+    }}}},
+    "sounds" : {
+      "draw" : [ "/sfx/gun/neb_bow_charge.ogg" ],
+      "hold" : [ "/sfx/melee/charge_full_hold1.ogg" ],
+      "release" : [ "/sfx/gun/aegisaltpistol_start.ogg" ],
+      "perfectRelease" : [ "/sfx/gun/dragonhead_fire1.ogg" ]
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/bow/bow.lua"],
+
+  "primaryAbilityType" : "neb_bowshot",
+  "primaryAbility" : {
+    "projectileType" : "neb_arrow",
+    "powerProjectileType" : "neb_arrow",
+    "projectileParameters" : {
+      "power" : 12.0
+    }
+  },
+
+  "altAbilityType" : "zenshot",
+  "altAbility" : {
+    "projectileType" : "neb_arrow",
+    "projectileParameters" : {
+      "power" : 27.5
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildbow.lua"
+}

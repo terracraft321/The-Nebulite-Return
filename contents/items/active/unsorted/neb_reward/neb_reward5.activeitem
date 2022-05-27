@@ -1,0 +1,24 @@
+{
+  "itemName" : "neb_reward5",
+  "price" : 0,
+  "level" : 5,
+  "maxStack" : 100,
+  "rarity" : "Rare",
+  "category" : "mysteriousReward",
+  "description" : "Contains a Level 5 weapon!",
+  "shortdescription" : "^orange;Lv.5^white; Loot Box",
+  "twoHanded" : true,
+
+  "inventoryIcon" : "neb_reward5.png",
+  "animation" : "neb_reward.animation",
+  "animationCustom" : {},
+  "scripts" : ["neb_reward.lua"],
+
+  "fireTime" : 1.0,
+  "fireOffset" : [1.0, 0.0],
+
+  "treasure" : {
+    "pool" : "neb_rewardbox",
+    "level" : 5
+  }
+}

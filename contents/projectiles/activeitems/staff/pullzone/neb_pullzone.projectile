@@ -1,0 +1,33 @@
+{
+  "projectileName" : "neb_pullzone",
+  "physics" : "laser",
+  "timeToLive" : 0.25,
+  "image" : "neb_pullzone.png",
+  "animationCycle" : 0.25,
+  "frameNumber" : 8,
+  "actionOnReap" : [],
+  "speed" : 0,
+  "power" : 0,
+  
+  "onlyHitTerrain" : false,
+  "physicsForces" : {
+    "pull" : {
+      "type" : "RadialForceRegion",
+      "categoryWhitelist" : ["monster", "npc", "itemdrop"],
+      "outerRadius" : 1000,
+      "innerRadius" : 6,
+      "baseTargetRadialVelocity" : -40,
+      "controlForce" : 300
+    }
+  },
+
+  "renderLayer" : "Player+1",
+  "orientationLocked" : true,
+  "fullbright" : false,
+  "emitters" : [ ],
+
+  "piercing" : true,
+  "bounces" : -1,
+
+  "scripts" : [ "/projectiles/activeitems/staff/staffprojectile.lua" ]
+}

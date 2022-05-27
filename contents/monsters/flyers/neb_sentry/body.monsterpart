@@ -1,0 +1,9 @@
+{
+  "name" : "neb_sentry",
+  "category" : "neb_sentry",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "neb_sentry.png"
+  }
+}

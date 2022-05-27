@@ -1,0 +1,21 @@
+{
+  "materialId" : 7875,
+  "materialName" : "neb_ornateglass",
+  "particleColor" : [71, 66, 57, 255],
+  "itemDrop" : "neb_ornateglass",
+  "description" : "An ornate glass embellishing the windows of ancient Nebulite structures.",
+  "shortdescription" : "Pure Tempest Glass",
+  "footstepSound" : "/sfx/blocks/footstep_stone.ogg",
+  "health" : 4,
+  "category": "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "neb_ornateglass.png",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "multiColored" : true,
+    "occludesBelow" : false,
+    "zLevel" : 350
+  }
+}

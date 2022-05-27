@@ -1,0 +1,11 @@
+{
+  "name" : "Nebulite",
+  "path" : ".",
+  "dependencies" : [],
+  "metadata" : {
+    "displayName" : "Nebulite Race",
+    "author" : "ZimaZang",
+    "description" : "Nebulite race mod.",
+    "version" : "3.0"
+  }
+}

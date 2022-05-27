@@ -1,0 +1,183 @@
+{
+  "animationParts" : { },
+  "animationCustom" : {
+    "animatedParts" : {
+      "stateTypes" : {
+        "spinSwoosh" : {
+          "default" : "idle",
+          "states" : {
+            "idle" : {
+            },
+            "windup" : {
+              "frames" : 3,
+              "cycle" : 0.25,
+              "mode" : "transition",
+              "transition" : "fire"
+            },
+            "fire" : {
+              "frames" : 4,
+              "cycle" : 0.25,
+              "mode" : "loop",
+              "persistentSound" : "/sfx/projectiles/zone_pull_loop.ogg"
+            }
+          }
+        },
+        "portal" : {
+          "default" : "idle",
+          "states" : {
+            "idle" : {
+            },
+            "open" : {
+              "frames" : 3,
+              "cycle" : 0.25,
+              "mode" : "transition",
+              "transition" : "loop"
+            },
+            "loop" : {
+              "frames" : 4,
+              "cycle" : 0.35,
+              "mode" : "loop"
+            },
+            "close" : {
+              "frames" : 3,
+              "cycle" : 0.5,
+              "mode" : "transition",
+              "transition" : "idle"
+            }
+          }
+        }
+      },
+      "parts" : {
+        "spinSwoosh" : {
+          "properties" : {
+            "zLevel" : 2,
+            "centered" : true,
+            "offset" : [5, 0.0],
+            "transformationGroups" : ["swoosh"],
+            "fullbright" : true,
+            "rotationCenter" : [0, 0]
+          },
+          "partStates" : {
+            "spinSwoosh" : {
+              "idle" : {
+                "properties" : {
+                  "image" : ""
+                }
+              },
+              "windup" : {
+                "properties" : {
+                  "image" : ""
+                }
+              },
+              "fire" : {
+                "properties" : {
+                  "image" : "/items/active/weapons/melee/abilities/quarterstaff/gravityslash/neb_gravityslash.png:<frame><swooshDirectives>",
+                  "damageArea" : [ [-1.5, 0.875], [2.75, 0.875], [4.125, 0.5], [5.0, 0], [5.0, -0.5], [4.625, -0.875], [3.5, -1.375], [-1.5, -1.375] ]
+                }
+              }
+            }
+          }
+        },
+        "portal" : {
+          "properties" : {
+            "zLevel" : 1,
+            "centered" : true,
+            "offset" : [4, 0.0],
+            "transformationGroups" : ["swoosh"],
+            "fullbright" : true,
+            "rotationCenter" : [0, 0]
+          },
+          "partStates" : {
+            "portal" : {
+              "idle" : {
+                "properties" : {
+                  "image" : ""
+                }
+              },
+              "open" : {
+                "properties" : {
+                  "image" : "/items/active/weapons/melee/abilities/quarterstaff/gravityslash/neb_gravityslash_portal.png:open<frame>"
+                }
+              },
+              "loop" : {
+                "properties" : {
+                  "image" : "/items/active/weapons/melee/abilities/quarterstaff/gravityslash/neb_gravityslash_portal.png:loop<frame>"
+                }
+              },
+              "close" : {
+                "properties" : {
+                  "image" : "/items/active/weapons/melee/abilities/quarterstaff/gravityslash/neb_gravityslash_portal.png:close<frame>"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "sounds" : {
+      "flail" : [ ],
+      "loop" : [ "/sfx/melee/neb_staff_raid1_loop.ogg" ],
+      "end" : [ "/sfx/objects/terraformer_deactivate.ogg" ]
+    }
+  },
+
+  "ability" : {
+    "name" : "Singularity",
+    "type" : "neb_gravityslash",
+    "scripts" : ["/items/active/weapons/melee/abilities/quarterstaff/gravityslash/neb_gravityslash.lua"],
+    "class" : "SpinSlash",
+
+    "energyUsage" : 80.0,
+    "cooldownTime" : 0.5,
+    "hoverTime" : 0.25,
+    
+    "projectileOffset" : [0,5],
+    "projectileType" : "neb_pullzone",
+
+    "damageConfig" : {
+      "damageSourceKind" : "broadsword",
+      "statusEffects" : [ ],
+      "baseDamage" : 5,
+      "knockback" : 20,
+      "knockbackMode" : "facing",
+      "timeout" : 0.15,
+      "timeoutGroup" : "alt"
+    },
+
+    "armRotationOffsets" : [20, -20, 0, 0, -20, 20, 0, 0],
+    "hoverYSpeed" : 0,
+    "hoverForce" : 1000,
+
+    "stances" : {
+      "idle" : {
+	    "armRotation" : -90,
+	    "weaponRotation" : 0,
+	    "twoHanded" : false,
+	    "weaponOffset" : [0.0, 0.0],
+
+	    "allowRotate" : false,
+	    "allowFlip" : true
+	  },
+      "windup" : {
+        "duration" : 0.075,
+        "armRotation" : 75,
+        "weaponRotation" : -75,
+        "twoHanded" : true,
+	    "weaponOffset" : [0.5, -1.0],
+
+        "allowRotate" : false,
+        "allowFlip" : true
+      },
+      "slash" : {
+        "duration" : 0.075,
+        "armRotation" : 75,
+        "weaponRotation" : -75,
+        "twoHanded" : true,
+	    "weaponOffset" : [0.5, -1.0],
+
+        "allowRotate" : false,
+        "allowFlip" : true
+      }
+    }
+  }
+}

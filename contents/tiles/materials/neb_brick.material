@@ -1,0 +1,23 @@
+{
+  "materialId" : 7865,
+  "materialName" : "neb_brick",
+  "particleColor" : [190, 159, 85, 255],
+  "itemDrop" : "neb_brick",
+  "shortdescription" : "Nebulite Bricks",
+  "description" : "These bricks look ancient. Intricate words are scratched into their surface that even my translator can't read.",
+  "glitchDescription" : "Curiosity. These stone carvings are rather crude.",
+  "floranDescription" : "Floran like ssstone pictures.",
+  "footstepSound" : "/sfx/blocks/footstep_stone3.ogg",
+  "health" : 16,
+  "category": "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "neb_brick.png",
+    "variants" : 25,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 500
+  }
+}

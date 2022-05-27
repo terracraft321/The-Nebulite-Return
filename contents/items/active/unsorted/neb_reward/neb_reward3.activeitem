@@ -1,0 +1,24 @@
+{
+  "itemName" : "neb_reward3",
+  "price" : 0,
+  "level" : 3,
+  "maxStack" : 100,
+  "rarity" : "Uncommon",
+  "category" : "mysteriousReward",
+  "description" : "Contains a Level 3 weapon!",
+  "shortdescription" : "^orange;Lv.3^white; Loot Box",
+  "twoHanded" : true,
+
+  "inventoryIcon" : "neb_reward3.png",
+  "animation" : "neb_reward.animation",
+  "animationCustom" : {},
+  "scripts" : ["neb_reward.lua"],
+
+  "fireTime" : 1.0,
+  "fireOffset" : [1.0, 0.0],
+
+  "treasure" : {
+    "pool" : "neb_rewardbox",
+    "level" : 3
+  }
+}

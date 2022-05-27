@@ -1,0 +1,12 @@
+{
+  "itemName" : "neb_pillarblock",
+  "rarity" : "Common",
+  "inventoryIcon" : "neb_pillarblock.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Nebulite Pillar Block",
+  "shortdescription" : "Nebulite Pillar",
+  "glitchdescription" : "Statement. Some pillar walls.",
+  "florandescription" : "Floran appreciate pillar twalls.",
+
+  "materialId" : 7867
+}

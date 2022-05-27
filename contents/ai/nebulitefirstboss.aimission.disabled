@@ -1,0 +1,17 @@
+{
+  "missionName" : "nebulitefirstboss",
+  "icon" : "nebulitefirstbossicon.png",
+  "missionWorld" : "nebulitefirstboss",
+
+  "speciesText" : {
+    "default" : {
+      "buttonText" : "Pillars of Life",
+      "repeatButtonText" : "Revisit Pillars of Life",
+      "selectSpeech" : {
+          "animation" : "talk",
+          "text" : "I was told to prepare myself for this fight. Better make sure I do just that.",
+          "speedModifier" : 1.0
+        }
+      ]
+    },
+    

@@ -1,0 +1,5 @@
+[ { 
+  "op" : "add",
+  "path" : "/speciesShips/nebulite",
+  "value" : [ "/ships/nebulite/nebuliteT0.structure", "/ships/nebulite/nebuliteT1.structure", "/ships/nebulite/nebuliteT2.structure", "/ships/nebulite/nebuliteT3.structure", "/ships/nebulite/nebuliteT4.structure", "/ships/nebulite/nebuliteT5.structure", "/ships/nebulite/nebuliteT6.structure", "/ships/nebulite/nebuliteT7.structure", "/ships/nebulite/nebuliteT8.structure" ]
+} ]

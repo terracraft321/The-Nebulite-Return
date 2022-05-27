@@ -1,0 +1,10 @@
+{
+  "name" : "neb_heal",
+  "effectConfig" : {
+    "healRate" : 0.5
+  },
+
+  "scripts" : [
+    "neb_heal.lua"
+  ]
+}

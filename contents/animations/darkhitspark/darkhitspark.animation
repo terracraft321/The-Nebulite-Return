@@ -1,0 +1,7 @@
+{
+  "frames" : "darkhitspark.png",
+  "variants" : 1,
+  "frameNumber" : 13,
+  "animationCycle" : 0.25,
+  "offset" : [0, 0]
+}

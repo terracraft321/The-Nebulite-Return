@@ -1,0 +1,23 @@
+{
+  "config" : {
+    "shipUpgrades" : {
+      "capabilities" : ["teleport", "planetTravel", "systemTravel"],
+      "maxFuel" : 1000
+    }
+  },
+
+  "backgroundOverlays" : [
+    {
+      "image" : "nebuliteT5.png",
+      "position" : [50, 23.37],
+      "fullbright" : true
+    },
+    {
+      "image" : "nebuliteT5lit.png",
+      "position" : [50, 23.37]
+    }
+  ],
+
+  "blockKey" : "blockKey.config:blockKey",
+  "blockImage" : "nebuliteT5blocks.png"
+}

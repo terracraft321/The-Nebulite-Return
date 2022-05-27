@@ -1,0 +1,9 @@
+{
+  "name" : "silver",
+  "category" : "neb_pet",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "silver.png"
+  }
+}

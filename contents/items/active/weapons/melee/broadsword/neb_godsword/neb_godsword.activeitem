@@ -1,0 +1,36 @@
+{
+  "itemName" : "neb_godsword",
+  "price" : 2000,
+  "level" : 6,
+  "maxStack" : 1,
+  "rarity" : "legendary",
+  "description" : "Some say... wait what do they say??",
+  "shortdescription" : "God?",
+  "tooltipKind" : "sword",
+  "category" : "broadsword",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","broadsword","nebulite"],
+
+  "inventoryIcon" : "Nebulite_God_Sword.png",
+	
+  "animation" : "/items/active/weapons/melee/broadsword/combobroadsword.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "Nebulite_God_Sword.png"
+  },
+  "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "fire",
+
+  "primaryAbilityType" : "broadswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.84,
+    "baseDps" : 11.2
+  },
+
+  "altAbilityType" : "flamethrowersword",
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

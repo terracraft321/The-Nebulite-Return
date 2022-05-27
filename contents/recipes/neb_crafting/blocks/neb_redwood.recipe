@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "logblock", "count" : 1 }
+  ],
+  "output" : { "item" : "neb_redwood", "count" : 1 },
+  "groups" : [ "neb_blockfilter", "neb_synthesizer" ]
+}

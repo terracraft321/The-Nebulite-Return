@@ -1,0 +1,9 @@
+{
+  "name" : "gold",
+  "category" : "neb_pet",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "gold.png"
+  }
+}

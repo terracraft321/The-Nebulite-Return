@@ -1,0 +1,9 @@
+{
+  "name" : "steel",
+  "category" : "neb_pet",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "steel.png"
+  }
+}

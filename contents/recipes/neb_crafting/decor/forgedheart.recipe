@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "cobblestonematerial", "count" : 20 },
+    { "item" : "solariumstar", "count" : 12 }
+  ],
+  "output" : { "item" : "forgedheart", "count" : 1 },
+  "groups" : [ "neb_decorfilter", "neb_synthesizer","armour", "all", "mod" ]
+}

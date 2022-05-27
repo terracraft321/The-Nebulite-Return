@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "refinedviolium", "count" : 14 },
+    { "item" : "solariumstar", "count" : 18 }
+  ],
+  "output" : { "item" : "nebuliteburst", "count" : 1 },
+  "groups" : [ "neb_decorfilter", "neb_synthesizer", "armour", "all", "mod" ]
+}

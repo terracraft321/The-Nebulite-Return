@@ -1,0 +1,24 @@
+{
+  "itemName" : "neb_reward4",
+  "price" : 0,
+  "level" : 4,
+  "maxStack" : 100,
+  "rarity" : "Uncommon",
+  "category" : "mysteriousReward",
+  "description" : "Contains a Level 4 weapon!",
+  "shortdescription" : "^orange;Lv.4^white; Loot Box",
+  "twoHanded" : true,
+
+  "inventoryIcon" : "neb_reward4.png",
+  "animation" : "neb_reward.animation",
+  "animationCustom" : {},
+  "scripts" : ["neb_reward.lua"],
+
+  "fireTime" : 1.0,
+  "fireOffset" : [1.0, 0.0],
+
+  "treasure" : {
+    "pool" : "neb_rewardbox",
+    "level" : 4
+  }
+}

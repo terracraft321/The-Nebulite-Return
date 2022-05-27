@@ -1,0 +1,15 @@
+{
+  "frameGrid" : {
+    "size" : [40, 40],
+    "dimensions" : [7, 1],
+
+    "names" : [
+      [ "open1", "open2", "open3", "loop1", "loop2", "loop3", "loop4" ]
+    ]
+  },
+  "aliases" : {
+    "close1" : "open3",
+    "close2" : "open2",
+    "close3" : "open1"
+  }
+}

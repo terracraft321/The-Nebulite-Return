@@ -1,0 +1,9 @@
+{
+  "name" : "neb_boss1",
+  "category" : "neb_boss1",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "neb_boss1.png"
+  }
+}

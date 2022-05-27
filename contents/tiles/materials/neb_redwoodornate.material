@@ -1,0 +1,21 @@
+{
+  "materialId" : 7874,
+  "materialName" : "neb_redwoodornate",
+  "particleColor" : [80, 20, 0, 255],
+  "itemDrop" : "neb_redwoodornate",
+  "description" : "A beautiful decorative redwood beam. Used in grand Nebulite temples.",
+  "shortdescription" : "Ornate Redwood Beam",
+  "footstepSound" : "/sfx/blocks/footstep_wood.ogg",
+  "health" : 6,
+  "category": "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "neb_redwoodornate.png",
+    "variants" : 7,
+    "lightTransparent" : false,
+    "multiColored" : true,
+    "occludesBelow" : true,
+    "zLevel" : 400
+  }
+}

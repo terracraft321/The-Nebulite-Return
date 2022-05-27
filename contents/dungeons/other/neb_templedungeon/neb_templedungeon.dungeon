@@ -1,0 +1,110 @@
+{
+  "metadata" : {
+    "name" : "neb_templedungeon",
+    "species" : "generic",
+    "rules" : [
+    ],
+    "anchor" : [ "neb_templedungeon" ],
+    "gravity" : 80,
+    "maxRadius" : 1000,
+    "maxParts" : 100,
+    "protected" : true
+  },
+  "tiles" : [
+    //SPECIAL
+    {
+      "value" : [192, 58, 255, 255],
+      "comment" : "Player Spawn",
+      "brush" : [ [ "playerstart" ] ]
+    },
+    
+    //BLOCKS
+    {
+      "value" : [255, 0, 220, 255],
+      "comment" : "magic pinkppp, a no-op value"
+    },
+    {
+      "value" : [184, 87, 217, 255],
+      "comment" : "Biome tile brush",
+      "rules" : [ [ "allowOverdrawing" ] ],
+      "brush" : [ [ "surface" ] ]
+    },
+    {
+      "value" : [32, 32, 32, 255],
+      "comment" : "Empty hole",
+      "brush" : [ [ "clear" ] ]
+    },
+    {
+      "value" : [100, 80, 0, 255],
+      "comment" : "Nebulite brick foundation",
+      "brush" : [ [ "clear" ], [ "front", "neb_brick" ], [ "back", "neb_brick" ] ]
+    },
+    {
+      "value" : [79, 63, 0, 255],
+      "comment" : "Nebulite ornate block foundation",
+      "brush" : [ [ "clear" ], [ "front", "neb_ornateblock" ], [ "back", "neb_ornateblock" ] ]
+    },
+    {
+      "value" : [71, 33, 0, 255],
+      "comment" : "Meteorite wall",
+      "brush" : [ [ "clear" ], [ "front", "meteoriterock" ], [ "back", "meteoriterock" ] ]
+    },
+    {
+      "value" : [47, 22, 0, 255],
+      "comment" : "Meteorite backwall",
+      "brush" : [ [ "clear" ], [ "back", "meteoriterock" ] ]
+    },
+    {
+      "value" : [47, 65, 5, 255],
+      "comment" : "Grass surface",
+      "brush" : [ [ "clear" ], [ "front", "grassy" ], [ "back", "grassy" ] ]
+    },
+    
+    //OBJECTS
+    {
+      "value" : [45, 119, 9, 255],
+      "comment" : "Altar of Origin",
+      "brush" : [ [ "clear" ], [ "object", "neb_altar", { "direction" : "right" } ] ]
+    },
+    {
+      "value" : [206, 190, 0, 255],
+      "comment" : "Foreground pillar right",
+      "brush" : [ [ "clear" ], [ "object", "neb_templepillar", { "direction" : "right" } ] ]
+    },
+    {
+      "value" : [111, 102, 0, 255],
+      "comment" : "Background pillar right",
+      "brush" : [ [ "clear" ], [ "object", "neb_templepillar_bg", { "direction" : "right" } ] ]
+    },
+    {
+      "value" : [199, 103, 7, 255],
+      "comment" : "Foreground pillar left",
+      "brush" : [ [ "clear" ], [ "object", "neb_templepillar", { "direction" : "left" } ] ]
+    },
+    {
+      "value" : [104, 48, 6, 255],
+      "comment" : "Background pillar left",
+      "brush" : [ [ "clear" ], [ "object", "neb_templepillar_bg", { "direction" : "left" } ] ]
+    },
+    {
+      "value" : [191, 64, 0, 255],
+      "comment" : "Warp gate",
+      "brush" : [ [ "clear" ], [ "object", "ancientgate", { "direction" : "right" } ] ]
+    },
+    {
+      "value" : [163, 0, 240, 255],
+      "comment" : "Warp gate return console",
+      "brush" : [ [ "clear" ], [ "object", "neb_returnconsole", { "direction" : "right" }, { "parameters" : { "interactData" : "/interface/warping/neb_templedungeon.config", "uniqueId" : "neb_templedungeon", "startActive" : true } } ] ]
+    }
+  ],
+
+  "parts" : [
+    {
+      "name" : "neb_templedungeon",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "image", [ "neb_templedungeon.png" ] ]
+    }
+  ]
+}

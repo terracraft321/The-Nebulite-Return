@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "densiniumbar", "count" : 2 },
+    { "item" : "solariumstar", "count" : 12 }
+  ],
+  "output" : { "item" : "neb_bowfull2", "count" : 1 },
+  "groups" : [ "neb_decorfilter", "neb_synthesizer","armour", "all", "mod" ]
+}

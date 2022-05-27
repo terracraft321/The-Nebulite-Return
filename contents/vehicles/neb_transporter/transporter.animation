@@ -1,0 +1,340 @@
+{
+  "globalTagDefaults" : {
+    "colour" : ""
+  },
+
+  "animatedParts" : {
+    "stateTypes" : {
+
+
+      "movement" : {
+        "default" : "idle",
+        "states" : {
+
+          "warpInPart1" : {
+            "frames" : 4,  
+            "cycle" : 0.33,
+            "mode" : "transition",
+            "transition" : "warpInPart2"
+            },
+
+          "warpInPart2" : {
+            "frames" : 4,  
+            "cycle" : 0.33,
+            "mode" : "transition",
+            "transition" : "idle"
+            },
+
+          "idle" : {},
+
+          "warpOutPart1" : {
+            "frames" : 4,  
+            "cycle" : 0.33,
+            "mode" : "transition",
+            "transition" : "warpOutPart2"
+            },
+
+          "warpOutPart2" : {
+            "frames" : 4,  
+            "cycle" : 0.33,
+            "mode" : "transition",
+            "transition" : "invisible"
+            },
+
+          "invisible" : {}
+
+        }
+      },
+
+
+      "onfire" : {
+        "default" : "off",
+        "states" : {
+          "off" : {},
+
+          "on" : {
+            "frames" : 6,
+            "cycle" : 0.5,
+            "mode" : "loop"
+          }
+
+        }
+      },
+
+      "rearThruster" : {
+        "default" : "off",
+        "states" : {
+          "off" : {},
+
+          "on" : {
+            "frames" : 1,
+            "cycle" : 0.125,
+            "mode" : "loop"
+          }
+
+        }
+      },
+
+      "bottomThruster" : {
+        "default" : "off",
+        "states" : {
+          "off" : {},
+
+          "on" : {
+            "frames" : 1,
+            "cycle" : 0.125,
+            "mode" : "loop"
+          }
+
+        }
+      }
+
+
+    },
+
+    "parts" : {
+
+
+      "foreground" : {
+        "properties" : {
+          "centered" : true,
+          "zLevel" : 1,
+          "transformationGroups" : ["flip", "rotation"],
+          "drivingSeatPosition" : [0, 2.3]
+        },
+
+        "partStates" : {
+
+          "movement" : {
+
+            "warpInPart1" : {
+              "properties" : {
+                "image" : ""
+              }
+            },
+            "warpInPart2" : {
+              "properties" : {
+                "image" : "transporterforeground.png:move.<damageState>"
+              }
+            },
+            "idle" : {
+              "properties" : {
+                "image" : "transporterforeground.png:move.<damageState>"
+              }
+            },
+
+            "warpOutPart1" : {
+              "properties" : {
+                "image" : "transporterforeground.png:move.<damageState>"
+              }
+            },
+
+            "warpOutPart2" : {
+              "properties" : {}
+            },
+
+            "invisible" : {
+              "properties" : {}
+            }
+          }
+        }
+      },
+
+      "warp" : {
+        "properties" : {
+          "centered" : true,
+          "zLevel" : 3,
+          "fullbright" : true,
+          "transformationGroups" : ["flip", "rotation"]
+        },
+
+        "partStates" : {
+
+          "movement" : {
+
+            "warpInPart1" : {
+              "properties" : {
+                "image" : "transporterwarp.png:warpInPart1.<frame>"
+              }
+            },
+            "warpInPart2" : {
+              "properties" : {
+                "image" : "transporterwarp.png:warpInPart2.<frame>"
+              }
+            },
+
+
+            "idle" : {
+              "properties" : {}
+            },
+
+
+            "warpOutPart1" : {
+              "properties" : {
+                "image" : "transporterwarp.png:warpOutPart1.<frame>"
+              }
+            },
+            "warpOutPart2" : {
+              "properties" : {
+                "image" : "transporterwarp.png:warpOutPart2.<frame>"
+              }
+            },
+
+
+            "invisible" : {
+              "properties" : {}
+            }
+
+          }
+        }
+      },
+
+
+       "rearThrust" : {
+        "properties" : {
+          "centered" : true,
+          "zLevel" : 2,
+          "fullbright" : true,
+          "light" : [87, 148, 150],
+          "transformationGroups" : ["flip", "rotation"]
+        },
+
+        "partStates" : {
+          "rearThruster" : {
+            "on" : {
+              "properties" : {
+                "image" : "/animations/neb_transporterthruster/backthruster.png:thrust.<rearThrusterFrame>",
+
+                "offset" : [-2.45, -0.65]
+              }
+            }
+          }
+        }
+      },
+
+
+      "bottomThrust" : {
+        "properties" : {
+          "centered" : true,
+          "zLevel" : 2,
+          "fullbright" : true,
+          "light" : [87, 148, 150],
+          "transformationGroups" : ["flip", "rotation"]
+        },
+
+        "partStates" : {
+          "bottomThruster" : {
+            "on" : {
+              "properties" : {
+                "image" : "/animations/neb_transporterthruster/bottomthruster.png:thrust.<bottomThrusterFrame>",
+                "offset" : [0.0, -1.75]
+              }
+            }
+          }
+        }
+      }
+
+
+    }
+  },
+
+  "transformationGroups" : {
+    "rotation" : {
+      "interpolated" : true
+    },
+    "flip" : {}
+  },
+
+  "particleEmitters" : {
+
+    "rearThrusterIdle" : {
+      "transformationGroups" : ["flip", "rotation"],
+      "emissionRate" : 5.0,
+      "offsetRegion" : [ -1.75, -0.65, -1.75, -0.85],
+      "particles" : [{ "particle" : "hoverbikethrust"}]
+    },
+
+    "rearThrusterDrive" : {
+      "transformationGroups" : ["flip", "rotation"],
+      "emissionRate" : 15.0,
+      "offsetRegion" : [ -1.75, -0.65, -1.75, -0.85],
+      "particles" : [{ "particle" : "hoverbikethrust"}]
+    },
+
+    "ventralThrusterIdle" : {
+      "transformationGroups" : ["flip", "rotation"],
+      "emissionRate" : 5.0,
+      "offsetRegion" : [-0.5, -1.5, 0.5, -1.55],
+      "particles" : [{ "particle" : "hoverbikedownthrust"}]
+    },
+    "ventralThrusterJump" : {
+      "transformationGroups" : ["flip", "rotation"],
+      "emissionRate" : 15.0,
+      "burstCount"  : 2,
+      "offsetRegion" : [-0.5, -1.5, 0.5, -1.55],
+      "particles" : [{ "particle" : "hoverbikedownthrust"}]
+    },
+
+
+    "smoke" : {
+      "transformationGroups" : ["flip", "rotation"],
+      "emissionRate" : 0.0,
+      "offsetRegion" : [-1.2, -1.5, 1.2, -1],
+      "particles" : [{ "particle" : "burningvehiclesmokefront"}]
+    },
+    
+    "fire" : {
+      "transformationGroups" : ["flip", "rotation"],
+      "emissionRate" : 0.0,
+      "offsetRegion" : [0, 0, 0, 0.75],
+      "particles" : [ ]
+
+    },
+
+    "damageIntermittent" : {
+      "transformationGroups" : ["flip", "rotation"],
+      "emissionRate" : 0.0,
+      "burstCount"  : 5,
+      "offsetRegion" : [-1.2, -1.5, 1.2, -1.25],
+      "particles" : [{ "particle" : "burningvehiclesmokefront"},
+                     { "particle" : "fireshard"}]
+    }
+  },
+
+  "sounds" : {
+    "collisionNotification" : [ "/sfx/tech/hoverbike_bump1.ogg",
+                                "/sfx/tech/hoverbike_bump2.ogg",
+                                "/sfx/tech/hoverbike_bump3.ogg"  ],
+
+    "collisionDamage" : ["/sfx/melee/bite_robotic1.ogg"],
+
+
+   "changeDamageState" : [  "/sfx/gun/grenadeblast_small_fire1.ogg",
+                            "/sfx/gun/grenadeblast_small_fire2.ogg",
+                            "/sfx/gun/grenadeblast_small_fire3.ogg" ],
+
+   "explode" : [  "/sfx/gun/grenadeblast_small_fire1.ogg",
+                  "/sfx/gun/grenadeblast_small_fire2.ogg",
+                  "/sfx/gun/grenadeblast_small_fire3.ogg" ],
+
+
+    "engineStart" : ["/sfx/objects/ancientlightplatform_on.ogg"],
+
+    "engineLoop" : ["/sfx/tech/tech_hoverloop.ogg"],
+
+    "engineStartDamaged" : ["/sfx/objects/ancientlightplatform_off.ogg"],
+
+    "engineLoopDamaged" : ["/sfx/tech/tech_hoverloop.ogg"],
+
+    "damageIntermittent" : [ "/sfx/gun/grenadeblast_small_fire1.ogg",
+                             "/sfx/gun/grenadeblast_small_fire2.ogg",
+                             "/sfx/gun/grenadeblast_small_fire3.ogg" ],
+
+    "hornLoop" : ["/sfx/tech/honk.ogg"],
+    "headlightSwitchOn" : ["/sfx/objects/floodlights_on.ogg"],
+    "headlightSwitchOff" : ["/sfx/objects/floodlights_off.ogg"],
+
+    "returnvehicle" : ["/sfx/tech/vehicle_disappear1.ogg"]
+
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "animatedParts" : {
+    "parts" : {
+      "bow" : {
+        "properties" : {
+          "centered" : true,
+          "fullbright" : true,
+          "image" : "<partImage>:<drawFrame>",
+          "transformationGroups" : ["weapon"]
+        }
+      },
+      "bowlit" : {
+        "properties" : {
+          "centered" : true,
+          "fullbright" : false,
+          "image" : "<partImage>:<drawFrame>",
+          "transformationGroups" : ["weapon"]
+        }
+      }
+    }
+  },
+
+  "transformationGroups" : {
+    "weapon" : {}
+  },
+
+  "sounds" : {
+    "draw" : [ ],
+    "hold" : [ ],
+    "release" : [ ],
+    "perfectRelease" : [ ]
+  }
+}

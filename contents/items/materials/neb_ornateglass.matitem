@@ -1,0 +1,9 @@
+{
+  "itemName" : "neb_ornateglass",
+  "rarity" : "Rare",
+  "inventoryIcon" : "neb_ornateglass.png",
+  "description" : "An ornate glass embellishing the windows of ancient Nebulite structures.",
+  "shortdescription" : "Pure Tempest Glass",
+
+  "materialId" : 7875
+}

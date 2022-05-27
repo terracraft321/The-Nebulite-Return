@@ -1,0 +1,75 @@
+{
+  "objectName" : "neb_researchstation",
+  "tags" : [],
+  "printable" : false,
+  "rarity" : "legendary",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/neb_crafting.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "  NEBULITE SYNTHESIZER",
+        "subtitle" : "  Creates items of Nebulite design!",
+        "icon" : {
+          "file" : "/interface/crafting/neb_researchstation.png"
+        }
+      }
+    },
+    "requiresBlueprint" : false,
+    "filter" : [ "neb_synthesizer" ]
+  },
+  "description" : "Creates items of Nebulite design!",
+  "shortdescription" : "^orange;Nebulite Synthesizer^white;",
+  "race" : "generic",
+  "category" : "crafting",
+  
+  "lightColor" : [77, 103, 128],
+
+  "flickerPeriod" : 0.2,
+  "flickerMinIntensity" : 0.68,
+  "flickerMaxIntensity" : 0.7,
+  "flickerPeriodVariance" : 0.0,
+  "flickerIntensityVariance" : 0.0,
+
+  "apexDescription" : "I can create specialized stations and devices with this.",
+  "avianDescription" : "A research table.",
+  "floranDescription" : "Floran once get in fight with table like this.",
+  "glitchDescription" : "Observation. This table is well-suited to research and development of new items.",
+  "humanDescription" : "I can craft specialized items here!",
+  "hylotlDescription" : "This table seems well equipped for the development of new technologies.",
+
+  "inventoryIcon" : "neb_researchstationicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "neb_researchstation.png:<color>.<frame>", "fullbright" : true }, { "image" : "neb_researchstationlit.png:<color>.<frame>" } ],
+
+      "imagePosition" : [-16, 0],
+      "frames" : 8,
+      "animationCycle" : 1.0,
+      
+      "direction" : "left",
+      
+      "lightPosition" : [ -1, 2],
+
+      "spaceScan" : 0.1,
+      "bgAnchors" : [ [-2, 0], [-1, 0], [0, 0], [1, 0] ]
+
+    },
+    {
+      "imageLayers" : [ { "image" : "neb_researchstation.png:<color>.<frame>", "fullbright" : true }, { "image" : "neb_researchstationlit.png:<color>.<frame>" } ],
+
+      "imagePosition" : [-16, 0],
+      "frames" : 8,
+      "animationCycle" : 1.0,
+      
+      "direction" : "right",
+      "flipImages" : true,
+      
+      "lightPosition" : [ 0, 2],
+
+      "spaceScan" : 0.1,
+      "bgAnchors" : [ [-2, 0], [-1, 0], [0, 0], [1, 0] ]
+
+    }
+  ]
+}

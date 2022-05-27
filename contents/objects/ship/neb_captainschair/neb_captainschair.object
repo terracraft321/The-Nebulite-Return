@@ -1,0 +1,52 @@
+{
+  "objectName" : "neb_captainschair",
+  "colonyTags" : ["nebulite"],
+  "printable" : false,
+  "rarity" : "Common",
+  "objectType" : "loungeable",
+
+  "description" : "A chair designed to navigate ships.",
+  "shortdescription" : "Nebulite Captain's Chair",
+  "race" : "nebulite",
+  "category" : "furniture",
+
+  "inventoryIcon" : "neb_captainschairicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ 
+        { "image" : "neb_captainschair.png:<color>.<frame>", "fullbright" : true }, 
+        { "image" : "neb_captainschairlit.png:<color>.<frame>" }
+      ],
+      "imagePosition" : [-12, 0],
+      "frames" : 12,
+      "animationCycle" : 1.4,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "flipImages" : true,
+      "direction" : "left",
+      "sitPosition" : [1.6, 22.5]
+    },
+    
+    {
+      "imageLayers" : [
+        { "image" : "neb_captainschair.png:<color>.<frame>", "fullbright" : true },
+        { "image" : "neb_captainschairlit.png:<color>.<frame>" }
+      ],
+      "imagePosition" : [-12, 0],
+      "frames" : 12,
+      "animationCycle" : 1.4,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "right",
+      "sitPosition" : [1.6, 22.5]
+    }
+  ],
+  "interactAction" : "ScriptPane",
+  "interactData" : "/interface/cockpit/cockpit.config",
+
+  "sitFlipDirection" : false,
+  "soundEffect" : "/sfx/objects/shipengine.ogg",
+  "soundEffectRadius" : 1000
+}

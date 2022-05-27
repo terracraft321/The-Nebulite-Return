@@ -1,0 +1,34 @@
+{
+  "projectileName" : "neb_energyspear_aeg",
+  "physics" : "arrow",
+  "actionOnCollide" : [
+    {
+      "action" : "sound",
+      "options" : [
+        "/sfx/melee/hammer_smash2.ogg"
+      ]
+    }
+  ],
+  "actionOnReap" : [
+    {
+     "action" : "config",
+     "file" : "/projectiles/throwable/neb_energyspear_aeg/neb_energyspear_aeg.config"
+    }
+  ],
+  "image" : "neb_energyspear_aeg.png",
+  "animationCycle" : 0.5,
+  "frameNumber" : 5,
+  "damageKindImage" : "icon.png",
+  "power" : 20,
+  "speed" : 50,
+  "knockback" : 10,
+  "knockbackDirectional" : true,
+  "damageKind" : "plasma",
+  "piercing" : true,
+  "fullbright" : true,
+  "timeToLive" : 10,
+  "damagePoly" : [ [-40, -9], [40, -9], [40, 9], [-40, 9] ],
+  "lightColor" : [0, 128, 0],
+  "pointLight" : false,
+  "persistentAudio" : "/sfx/melee/giantsword_charged_electric.ogg"
+}
